@@ -447,7 +447,7 @@ function App() {
                   <span className="font-semibold">2761</span>
                 </div>
                 <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-indigo-400 rounded-full" style={{ width: '27.61%' }}></div>
+                  <div className="h-full bg-rose-400 rounded-full" style={{ width: '27.61%' }}></div>
                 </div>
               </div>
               <div>
@@ -478,7 +478,7 @@ function App() {
                 SRI en Línea: 238 (92,97%)
               </div>
               <div className="flex items-center gap-2">
-                <span className="inline-block h-2 w-2 rounded-full bg-amber-500"></span>
+                <span className="inline-block h-2 w-2 rounded-full bg-lime-500"></span>
                 GOB.ec: 13 (5,08%)
               </div>
               <div className="flex items-center gap-2">
@@ -763,7 +763,7 @@ function App() {
                     <span className="font-semibold">0,37%</span>
                   </div>
                   <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                    <div className="h-full bg-amber-400" style={{ width: '7.4%' }}></div>
+                    <div className="h-full bg-lime-400" style={{ width: '7.4%' }}></div>
                   </div>
                 </div>
                 <div>
@@ -820,7 +820,7 @@ function App() {
                     <span className="font-semibold">744,17</span>
                   </div>
                   <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                    <div className="h-full bg-indigo-400" style={{ width: '18.6%' }}></div>
+                    <div className="h-full bg-rose-400" style={{ width: '18.6%' }}></div>
                   </div>
                 </div>
                 <div>
@@ -1061,7 +1061,7 @@ function App() {
                   { label: 'Oficinas', value: 1.0, color: 'bg-indigo-500' },
                   { label: 'Cajeros', value: 3.7, color: 'bg-teal-500' },
                   { label: 'Corresponsales', value: 36.1, color: 'bg-emerald-500' },
-                  { label: 'Datáfonos', value: 71.7, color: 'bg-amber-500' },
+                  { label: 'Datáfonos', value: 71.7, color: 'bg-lime-500' },
                   { label: 'Cajas', value: 20.8, color: 'bg-purple-500' },
                 ].map(item => (
                   <div key={item.label}>
@@ -1087,7 +1087,7 @@ function App() {
                   { label: 'Oficinas', value: 4.8, color: 'bg-indigo-500' },
                   { label: 'Cajeros', value: 17.7, color: 'bg-teal-500' },
                   { label: 'Corresponsales', value: 171.2, color: 'bg-emerald-500' },
-                  { label: 'Datáfonos', value: 339.9, color: 'bg-amber-500' },
+                  { label: 'Datáfonos', value: 339.9, color: 'bg-lime-500' },
                   { label: 'Cajas', value: 98.6, color: 'bg-purple-500' },
                 ].map(item => (
                   <div key={item.label}>
@@ -1666,7 +1666,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(1200px_circle_at_10%_-10%,rgba(34,211,238,0.15),transparent),radial-gradient(800px_circle_at_90%_0%,rgba(99,102,241,0.12),transparent)] bg-slate-950 text-white">
+    <div className="min-h-screen bg-[radial-gradient(1200px_circle_at_10%_-10%,rgba(244,63,94,0.18),transparent),radial-gradient(800px_circle_at_90%_0%,rgba(163,230,53,0.14),transparent)] bg-slate-950 text-white">
       <header className="sticky top-0 z-10 border-b border-white/10 bg-slate-950/80 backdrop-blur">
         <div className="max-w-6xl mx-auto px-4 py-4 flex flex-col gap-5">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
