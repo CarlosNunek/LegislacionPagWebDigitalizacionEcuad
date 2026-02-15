@@ -17,10 +17,10 @@ export function EventCard({ event, compact = false }) {
   };
 
   return (
-    <article className={`bg-white/5 border shadow-sm hover:bg-white/10 transition rounded-xl ${compact ? 'p-3' : 'p-4'} ${event.pais === 'Canadá' ? 'border-green-500/30' : 'border-white/10'}`}>
+    <article className={`bg-white/5 border shadow-sm hover:bg-white/10 transition rounded-xl ${compact ? 'p-3' : 'p-4'} ${event.pais === 'Canadá' ? 'border-amber-500/30' : 'border-white/10'}`}>
       <div className="flex flex-wrap items-center gap-2 mb-2">
         {event.pais && (
-          <span className={`text-xs font-semibold px-2 py-1 rounded-full border ${event.pais === 'Canadá' ? 'bg-green-500/20 border-green-500/30' : 'bg-blue-500/20 border-blue-500/30'}`}>
+          <span className={`text-xs font-semibold px-2 py-1 rounded-full border ${event.pais === 'Canadá' ? 'bg-amber-500/20 border-amber-500/30' : 'bg-indigo-500/20 border-indigo-500/30'}`}>
             {event.pais}
           </span>
         )}
@@ -46,7 +46,7 @@ export function EventCard({ event, compact = false }) {
               href={f.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs text-cyan-300 hover:text-cyan-200 hover:underline"
+              className="text-xs text-teal-300 hover:text-teal-200 hover:underline"
             >
               • {f.label} ↗
             </a>

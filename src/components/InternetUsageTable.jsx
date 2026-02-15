@@ -57,8 +57,8 @@ export function InternetUsageTable() {
   const periods = ['jul-22', 'jul-23', 'jul-24', 'jul-25'];
 
   const getColor = (value) => {
-    if (value >= 50) return 'bg-green-500/20 text-green-300';
-    if (value >= 20) return 'bg-blue-500/20 text-blue-300';
+    if (value >= 50) return 'bg-amber-500/20 text-amber-300';
+    if (value >= 20) return 'bg-indigo-500/20 text-indigo-300';
     if (value >= 10) return 'bg-yellow-500/20 text-yellow-300';
     return 'bg-slate-500/20 text-slate-300';
   };
@@ -70,7 +70,7 @@ export function InternetUsageTable() {
   };
 
   const getTrendColor = (old, current) => {
-    if (current > old) return 'text-green-400';
+    if (current > old) return 'text-amber-400';
     if (current < old) return 'text-red-400';
     return 'text-slate-400';
   };
@@ -156,7 +156,7 @@ export function InternetUsageTable() {
               href="https://www.ecuadorencifras.gob.ec/tecnologias-de-la-informacion-y-comunicacion-tic/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-cyan-400 hover:underline"
+              className="text-teal-400 hover:underline"
             >
               INEC ENEMDU - Julio 2025
             </a>
