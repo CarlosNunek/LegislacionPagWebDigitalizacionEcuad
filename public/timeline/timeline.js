@@ -356,28 +356,28 @@ function initializeChart() {
             {
                 label: 'Transacciones Digitales (Millones)',
                 data: [0.05, 2, 15, 35, 120, 210, 285, 380, 450, 520, 600, 680],
-                borderColor: 'rgba(168, 85, 247, 1)',
-                backgroundColor: 'rgba(168, 85, 247, 0.1)',
+                borderColor: 'rgba(244, 63, 94, 1)',
+                backgroundColor: 'rgba(244, 63, 94, 0.1)',
                 borderWidth: 3,
                 fill: true,
                 tension: 0.4,
                 pointRadius: 6,
                 pointHoverRadius: 8,
-                pointBackgroundColor: 'rgba(168, 85, 247, 1)',
+                pointBackgroundColor: 'rgba(244, 63, 94, 1)',
                 pointBorderColor: '#fff',
                 pointBorderWidth: 2,
             },
             {
                 label: 'Transacciones Físicas (Millones)',
                 data: [500, 480, 450, 420, 380, 320, 258, 200, 150, 100, 60, 30],
-                borderColor: 'rgba(6, 182, 212, 1)',
-                backgroundColor: 'rgba(6, 182, 212, 0.1)',
+                borderColor: 'rgba(34, 211, 238, 1)',
+                backgroundColor: 'rgba(34, 211, 238, 0.1)',
                 borderWidth: 3,
                 fill: true,
                 tension: 0.4,
                 pointRadius: 6,
                 pointHoverRadius: 8,
-                pointBackgroundColor: 'rgba(6, 182, 212, 1)',
+                pointBackgroundColor: 'rgba(34, 211, 238, 1)',
                 pointBorderColor: '#fff',
                 pointBorderWidth: 2,
             }
@@ -399,7 +399,7 @@ function initializeChart() {
                     display: true,
                     position: 'top',
                     labels: {
-                        color: '#cbd5e1',
+                        color: '#e0f2fe',
                         font: {
                             size: 14,
                             weight: '600',
@@ -411,10 +411,10 @@ function initializeChart() {
                     }
                 },
                 tooltip: {
-                    backgroundColor: 'rgba(30, 41, 59, 0.95)',
+                    backgroundColor: 'rgba(2, 6, 23, 0.95)',
                     titleColor: '#f1f5f9',
-                    bodyColor: '#cbd5e1',
-                    borderColor: 'rgba(168, 85, 247, 0.5)',
+                    bodyColor: '#e0f2fe',
+                    borderColor: 'rgba(244, 63, 94, 0.5)',
                     borderWidth: 1,
                     padding: 12,
                     displayColors: true,
@@ -434,11 +434,11 @@ function initializeChart() {
                 y: {
                     beginAtZero: true,
                     grid: {
-                        color: 'rgba(51, 65, 85, 0.5)',
+                        color: 'rgba(29, 78, 216, 0.5)',
                         drawBorder: false
                     },
                     ticks: {
-                        color: '#94a3b8',
+                        color: '#bae6fd',
                         font: {
                             size: 12,
                             family: 'Inter'
@@ -450,11 +450,11 @@ function initializeChart() {
                 },
                 x: {
                     grid: {
-                        color: 'rgba(51, 65, 85, 0.3)',
+                        color: 'rgba(29, 78, 216, 0.3)',
                         drawBorder: false
                     },
                     ticks: {
-                        color: '#94a3b8',
+                        color: '#bae6fd',
                         font: {
                             size: 12,
                             family: 'Inter'
@@ -480,12 +480,12 @@ function initializeDigitalizationGauge() {
         datasets: [{
             data: [digitalizationLevel, 100 - digitalizationLevel],
             backgroundColor: [
-                'rgba(168, 85, 247, 0.8)',
-                'rgba(51, 65, 85, 0.3)'
+                'rgba(244, 63, 94, 0.8)',
+                'rgba(29, 78, 216, 0.3)'
             ],
             borderColor: [
-                'rgba(168, 85, 247, 1)',
-                'rgba(51, 65, 85, 0.5)'
+                'rgba(244, 63, 94, 1)',
+                'rgba(29, 78, 216, 0.5)'
             ],
             borderWidth: 2
         }]
@@ -503,10 +503,10 @@ function initializeDigitalizationGauge() {
                     display: false
                 },
                 tooltip: {
-                    backgroundColor: 'rgba(30, 41, 59, 0.95)',
+                    backgroundColor: 'rgba(2, 6, 23, 0.95)',
                     titleColor: '#f1f5f9',
-                    bodyColor: '#cbd5e1',
-                    borderColor: 'rgba(168, 85, 247, 0.5)',
+                    bodyColor: '#e0f2fe',
+                    borderColor: 'rgba(244, 63, 94, 0.5)',
                     borderWidth: 1,
                     padding: 12,
                     callbacks: {
@@ -535,14 +535,14 @@ function initializeDigitalizationGauge() {
 
                 // Gradient for text
                 const gradient = ctx.createLinearGradient(0, 0, width, 0);
-                gradient.addColorStop(0, 'rgba(168, 85, 247, 1)');
-                gradient.addColorStop(1, 'rgba(6, 182, 212, 1)');
+                gradient.addColorStop(0, 'rgba(244, 63, 94, 1)');
+                gradient.addColorStop(1, 'rgba(34, 211, 238, 1)');
                 ctx.fillStyle = gradient;
                 ctx.fillText(text, textX, textY);
 
                 // Subtitle
                 ctx.font = `${fontSize * 0.3}em Inter`;
-                ctx.fillStyle = '#cbd5e1';
+                ctx.fillStyle = '#e0f2fe';
                 const subtitle = 'Nivel de Digitalización';
                 const subtitleX = Math.round((width - ctx.measureText(subtitle).width) / 2);
                 ctx.fillText(subtitle, subtitleX, textY + 30);
@@ -568,12 +568,12 @@ function initializeBenchmarkChart() {
             backgroundColor: [
                 'rgba(239, 68, 68, 0.8)',
                 'rgba(59, 130, 246, 0.8)',
-                'rgba(168, 85, 247, 0.8)'
+                'rgba(244, 63, 94, 0.8)'
             ],
             borderColor: [
                 'rgba(239, 68, 68, 1)',
                 'rgba(59, 130, 246, 1)',
-                'rgba(168, 85, 247, 1)'
+                'rgba(244, 63, 94, 1)'
             ],
             borderWidth: 2
         }]
@@ -591,10 +591,10 @@ function initializeBenchmarkChart() {
                     display: false
                 },
                 tooltip: {
-                    backgroundColor: 'rgba(30, 41, 59, 0.95)',
+                    backgroundColor: 'rgba(2, 6, 23, 0.95)',
                     titleColor: '#f1f5f9',
-                    bodyColor: '#cbd5e1',
-                    borderColor: 'rgba(168, 85, 247, 0.5)',
+                    bodyColor: '#e0f2fe',
+                    borderColor: 'rgba(244, 63, 94, 0.5)',
                     borderWidth: 1,
                     padding: 12,
                     callbacks: {
@@ -617,11 +617,11 @@ function initializeBenchmarkChart() {
                     beginAtZero: true,
                     max: 100,
                     grid: {
-                        color: 'rgba(51, 65, 85, 0.5)',
+                        color: 'rgba(29, 78, 216, 0.5)',
                         drawBorder: false
                     },
                     ticks: {
-                        color: '#94a3b8',
+                        color: '#bae6fd',
                         font: {
                             size: 12,
                             family: 'Inter'
@@ -636,7 +636,7 @@ function initializeBenchmarkChart() {
                         display: false
                     },
                     ticks: {
-                        color: '#cbd5e1',
+                        color: '#e0f2fe',
                         font: {
                             size: 14,
                             weight: '600',
@@ -662,15 +662,15 @@ function initializeEcommerceEvolutionChart() {
             {
                 label: 'Ventas Nacionales',
                 data: [2857, 3300],
-                backgroundColor: 'rgba(168, 85, 247, 0.8)',
-                borderColor: 'rgba(168, 85, 247, 1)',
+                backgroundColor: 'rgba(244, 63, 94, 0.8)',
+                borderColor: 'rgba(244, 63, 94, 1)',
                 borderWidth: 2
             },
             {
                 label: 'Ventas Internacionales',
                 data: [1761, 2100],
-                backgroundColor: 'rgba(6, 182, 212, 0.8)',
-                borderColor: 'rgba(6, 182, 212, 1)',
+                backgroundColor: 'rgba(34, 211, 238, 0.8)',
+                borderColor: 'rgba(34, 211, 238, 1)',
                 borderWidth: 2
             }
         ]
@@ -687,7 +687,7 @@ function initializeEcommerceEvolutionChart() {
                     display: true,
                     position: 'top',
                     labels: {
-                        color: '#cbd5e1',
+                        color: '#e0f2fe',
                         font: {
                             size: 14,
                             weight: '600',
@@ -698,10 +698,10 @@ function initializeEcommerceEvolutionChart() {
                     }
                 },
                 tooltip: {
-                    backgroundColor: 'rgba(30, 41, 59, 0.95)',
+                    backgroundColor: 'rgba(2, 6, 23, 0.95)',
                     titleColor: '#f1f5f9',
-                    bodyColor: '#cbd5e1',
-                    borderColor: 'rgba(168, 85, 247, 0.5)',
+                    bodyColor: '#e0f2fe',
+                    borderColor: 'rgba(244, 63, 94, 0.5)',
                     borderWidth: 1,
                     padding: 12,
                     callbacks: {
@@ -715,11 +715,11 @@ function initializeEcommerceEvolutionChart() {
                 y: {
                     beginAtZero: true,
                     grid: {
-                        color: 'rgba(51, 65, 85, 0.5)',
+                        color: 'rgba(29, 78, 216, 0.5)',
                         drawBorder: false
                     },
                     ticks: {
-                        color: '#94a3b8',
+                        color: '#bae6fd',
                         font: {
                             size: 12,
                             family: 'Inter'
@@ -734,7 +734,7 @@ function initializeEcommerceEvolutionChart() {
                         display: false
                     },
                     ticks: {
-                        color: '#cbd5e1',
+                        color: '#e0f2fe',
                         font: {
                             size: 14,
                             weight: '600',
@@ -760,26 +760,26 @@ function initializeDemographicsChart() {
             label: 'Porcentaje de Población',
             data: [8.1, 13.5, 8.7, 12.0, 16.7, 14.1, 10.8, 7.9, 8.2],
             backgroundColor: [
-                'rgba(168, 85, 247, 0.6)',
-                'rgba(168, 85, 247, 0.65)',
-                'rgba(168, 85, 247, 0.7)',
-                'rgba(168, 85, 247, 0.85)',  // Gen Z - destacado
-                'rgba(6, 182, 212, 0.85)',    // Millennials - destacado
-                'rgba(168, 85, 247, 0.7)',
-                'rgba(168, 85, 247, 0.65)',
-                'rgba(168, 85, 247, 0.6)',
-                'rgba(168, 85, 247, 0.55)'
+                'rgba(244, 63, 94, 0.6)',
+                'rgba(244, 63, 94, 0.65)',
+                'rgba(244, 63, 94, 0.7)',
+                'rgba(244, 63, 94, 0.85)',  // Gen Z - destacado
+                'rgba(34, 211, 238, 0.85)',    // Millennials - destacado
+                'rgba(244, 63, 94, 0.7)',
+                'rgba(244, 63, 94, 0.65)',
+                'rgba(244, 63, 94, 0.6)',
+                'rgba(244, 63, 94, 0.55)'
             ],
             borderColor: [
-                'rgba(168, 85, 247, 1)',
-                'rgba(168, 85, 247, 1)',
-                'rgba(168, 85, 247, 1)',
-                'rgba(168, 85, 247, 1)',
-                'rgba(6, 182, 212, 1)',
-                'rgba(168, 85, 247, 1)',
-                'rgba(168, 85, 247, 1)',
-                'rgba(168, 85, 247, 1)',
-                'rgba(168, 85, 247, 1)'
+                'rgba(244, 63, 94, 1)',
+                'rgba(244, 63, 94, 1)',
+                'rgba(244, 63, 94, 1)',
+                'rgba(244, 63, 94, 1)',
+                'rgba(34, 211, 238, 1)',
+                'rgba(244, 63, 94, 1)',
+                'rgba(244, 63, 94, 1)',
+                'rgba(244, 63, 94, 1)',
+                'rgba(244, 63, 94, 1)'
             ],
             borderWidth: 2
         }]
@@ -797,10 +797,10 @@ function initializeDemographicsChart() {
                     display: false
                 },
                 tooltip: {
-                    backgroundColor: 'rgba(30, 41, 59, 0.95)',
+                    backgroundColor: 'rgba(2, 6, 23, 0.95)',
                     titleColor: '#f1f5f9',
-                    bodyColor: '#cbd5e1',
-                    borderColor: 'rgba(168, 85, 247, 0.5)',
+                    bodyColor: '#e0f2fe',
+                    borderColor: 'rgba(244, 63, 94, 0.5)',
                     borderWidth: 1,
                     padding: 12,
                     callbacks: {
@@ -815,11 +815,11 @@ function initializeDemographicsChart() {
                     beginAtZero: true,
                     max: 20,
                     grid: {
-                        color: 'rgba(51, 65, 85, 0.5)',
+                        color: 'rgba(29, 78, 216, 0.5)',
                         drawBorder: false
                     },
                     ticks: {
-                        color: '#94a3b8',
+                        color: '#bae6fd',
                         font: {
                             size: 12,
                             family: 'Inter'
@@ -834,7 +834,7 @@ function initializeDemographicsChart() {
                         display: false
                     },
                     ticks: {
-                        color: '#cbd5e1',
+                        color: '#e0f2fe',
                         font: {
                             size: 12,
                             family: 'Inter'
@@ -858,15 +858,15 @@ function initializePaymentMethodsChart() {
         datasets: [{
             data: [74, 16, 6, 3, 1],
             backgroundColor: [
-                'rgba(168, 85, 247, 0.8)',
-                'rgba(6, 182, 212, 0.8)',
+                'rgba(244, 63, 94, 0.8)',
+                'rgba(34, 211, 238, 0.8)',
                 'rgba(59, 130, 246, 0.8)',
                 'rgba(34, 197, 94, 0.8)',
                 'rgba(251, 191, 36, 0.8)'
             ],
             borderColor: [
-                'rgba(168, 85, 247, 1)',
-                'rgba(6, 182, 212, 1)',
+                'rgba(244, 63, 94, 1)',
+                'rgba(34, 211, 238, 1)',
                 'rgba(59, 130, 246, 1)',
                 'rgba(34, 197, 94, 1)',
                 'rgba(251, 191, 36, 1)'
@@ -887,7 +887,7 @@ function initializePaymentMethodsChart() {
                     display: true,
                     position: 'bottom',
                     labels: {
-                        color: '#cbd5e1',
+                        color: '#e0f2fe',
                         font: {
                             size: 12,
                             family: 'Inter'
@@ -897,10 +897,10 @@ function initializePaymentMethodsChart() {
                     }
                 },
                 tooltip: {
-                    backgroundColor: 'rgba(30, 41, 59, 0.95)',
+                    backgroundColor: 'rgba(2, 6, 23, 0.95)',
                     titleColor: '#f1f5f9',
-                    bodyColor: '#cbd5e1',
-                    borderColor: 'rgba(168, 85, 247, 0.5)',
+                    bodyColor: '#e0f2fe',
+                    borderColor: 'rgba(244, 63, 94, 0.5)',
                     borderWidth: 1,
                     padding: 12,
                     callbacks: {
@@ -927,15 +927,15 @@ function initializeConsumptionCategoriesChart() {
             label: 'Porcentaje de Usuarios',
             data: [87, 78, 73, 59, 56],
             backgroundColor: [
-                'rgba(168, 85, 247, 0.8)',
-                'rgba(6, 182, 212, 0.8)',
+                'rgba(244, 63, 94, 0.8)',
+                'rgba(34, 211, 238, 0.8)',
                 'rgba(59, 130, 246, 0.8)',
                 'rgba(34, 197, 94, 0.8)',
                 'rgba(251, 191, 36, 0.8)'
             ],
             borderColor: [
-                'rgba(168, 85, 247, 1)',
-                'rgba(6, 182, 212, 1)',
+                'rgba(244, 63, 94, 1)',
+                'rgba(34, 211, 238, 1)',
                 'rgba(59, 130, 246, 1)',
                 'rgba(34, 197, 94, 1)',
                 'rgba(251, 191, 36, 1)'
@@ -956,10 +956,10 @@ function initializeConsumptionCategoriesChart() {
                     display: false
                 },
                 tooltip: {
-                    backgroundColor: 'rgba(30, 41, 59, 0.95)',
+                    backgroundColor: 'rgba(2, 6, 23, 0.95)',
                     titleColor: '#f1f5f9',
-                    bodyColor: '#cbd5e1',
-                    borderColor: 'rgba(168, 85, 247, 0.5)',
+                    bodyColor: '#e0f2fe',
+                    borderColor: 'rgba(244, 63, 94, 0.5)',
                     borderWidth: 1,
                     padding: 12,
                     callbacks: {
@@ -974,11 +974,11 @@ function initializeConsumptionCategoriesChart() {
                     beginAtZero: true,
                     max: 100,
                     grid: {
-                        color: 'rgba(51, 65, 85, 0.5)',
+                        color: 'rgba(29, 78, 216, 0.5)',
                         drawBorder: false
                     },
                     ticks: {
-                        color: '#94a3b8',
+                        color: '#bae6fd',
                         font: {
                             size: 12,
                             family: 'Inter'
@@ -993,7 +993,7 @@ function initializeConsumptionCategoriesChart() {
                         display: false
                     },
                     ticks: {
-                        color: '#cbd5e1',
+                        color: '#e0f2fe',
                         font: {
                             size: 13,
                             weight: '500',
@@ -1044,10 +1044,10 @@ function initializeCountryComparisonChart() {
                     display: false
                 },
                 tooltip: {
-                    backgroundColor: 'rgba(30, 41, 59, 0.95)',
+                    backgroundColor: 'rgba(2, 6, 23, 0.95)',
                     titleColor: '#f1f5f9',
-                    bodyColor: '#cbd5e1',
-                    borderColor: 'rgba(168, 85, 247, 0.5)',
+                    bodyColor: '#e0f2fe',
+                    borderColor: 'rgba(244, 63, 94, 0.5)',
                     borderWidth: 1,
                     padding: 12,
                     callbacks: {
@@ -1062,11 +1062,11 @@ function initializeCountryComparisonChart() {
                     beginAtZero: true,
                     max: 100,
                     grid: {
-                        color: 'rgba(51, 65, 85, 0.5)',
+                        color: 'rgba(29, 78, 216, 0.5)',
                         drawBorder: false
                     },
                     ticks: {
-                        color: '#94a3b8',
+                        color: '#bae6fd',
                         font: {
                             size: 12,
                             family: 'Inter'
@@ -1081,7 +1081,7 @@ function initializeCountryComparisonChart() {
                         display: false
                     },
                     ticks: {
-                        color: '#cbd5e1',
+                        color: '#e0f2fe',
                         font: {
                             size: 14,
                             weight: '600',
@@ -1112,13 +1112,13 @@ function initializeDigitalizationRadarChart() {
         datasets: [{
             label: 'Ecuador',
             data: [78, 80.6, 99, 85, 75],
-            backgroundColor: 'rgba(168, 85, 247, 0.2)',
-            borderColor: 'rgba(168, 85, 247, 1)',
+            backgroundColor: 'rgba(244, 63, 94, 0.2)',
+            borderColor: 'rgba(244, 63, 94, 1)',
             borderWidth: 3,
-            pointBackgroundColor: 'rgba(168, 85, 247, 1)',
+            pointBackgroundColor: 'rgba(244, 63, 94, 1)',
             pointBorderColor: '#fff',
             pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgba(168, 85, 247, 1)',
+            pointHoverBorderColor: 'rgba(244, 63, 94, 1)',
             pointRadius: 5,
             pointHoverRadius: 7
         }]
@@ -1135,7 +1135,7 @@ function initializeDigitalizationRadarChart() {
                     display: true,
                     position: 'top',
                     labels: {
-                        color: '#cbd5e1',
+                        color: '#e0f2fe',
                         font: {
                             size: 14,
                             weight: '600',
@@ -1145,10 +1145,10 @@ function initializeDigitalizationRadarChart() {
                     }
                 },
                 tooltip: {
-                    backgroundColor: 'rgba(30, 41, 59, 0.95)',
+                    backgroundColor: 'rgba(2, 6, 23, 0.95)',
                     titleColor: '#f1f5f9',
-                    bodyColor: '#cbd5e1',
-                    borderColor: 'rgba(168, 85, 247, 0.5)',
+                    bodyColor: '#e0f2fe',
+                    borderColor: 'rgba(244, 63, 94, 0.5)',
                     borderWidth: 1,
                     padding: 12,
                     callbacks: {
@@ -1164,7 +1164,7 @@ function initializeDigitalizationRadarChart() {
                     max: 100,
                     ticks: {
                         stepSize: 20,
-                        color: '#94a3b8',
+                        color: '#bae6fd',
                         backdropColor: 'transparent',
                         font: {
                             size: 11,
@@ -1175,13 +1175,13 @@ function initializeDigitalizationRadarChart() {
                         }
                     },
                     grid: {
-                        color: 'rgba(51, 65, 85, 0.5)'
+                        color: 'rgba(29, 78, 216, 0.5)'
                     },
                     angleLines: {
-                        color: 'rgba(51, 65, 85, 0.5)'
+                        color: 'rgba(29, 78, 216, 0.5)'
                     },
                     pointLabels: {
-                        color: '#cbd5e1',
+                        color: '#e0f2fe',
                         font: {
                             size: 12,
                             family: 'Inter'

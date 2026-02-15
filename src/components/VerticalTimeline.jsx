@@ -15,7 +15,7 @@ export function VerticalTimeline({ events = [] }) {
   }, [events, showEcuador, showCanada]);
 
   const getCountryColor = (pais) => {
-    return pais === 'Canadá' ? 'bg-green-600' : 'bg-blue-600';
+    return pais === 'Canadá' ? 'bg-lime-500' : 'bg-rose-600';
   };
 
   const getCountryFlag = (pais) => {
@@ -65,7 +65,7 @@ export function VerticalTimeline({ events = [] }) {
                 <div className={`flex ${isLeft ? 'flex-row' : 'flex-row-reverse'}`}>
                   {/* Mitad izquierda o derecha con contenido */}
                   <div className="w-1/2 px-6 py-4">
-                    <div className={`bg-white rounded-lg shadow-lg p-5 border-l-4 ${isCanada ? 'border-green-600' : 'border-blue-600'}`}>
+                    <div className={`bg-white rounded-lg shadow-lg p-5 border-l-4 ${isCanada ? 'border-lime-500' : 'border-rose-600'}`}>
                       <div className="flex items-center gap-2 mb-2">
                         <span className="text-3xl">{flag}</span>
                         <span className="text-sm font-bold text-gray-600 uppercase">
@@ -94,7 +94,7 @@ export function VerticalTimeline({ events = [] }) {
                                     href={fuente.url}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-xs text-blue-600 hover:underline"
+                                    className="text-xs text-rose-600 hover:underline"
                                   >
                                     {fuente.label} ↗
                                   </a>

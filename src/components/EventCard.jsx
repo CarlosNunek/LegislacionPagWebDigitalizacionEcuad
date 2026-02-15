@@ -17,10 +17,10 @@ export function EventCard({ event, compact = false }) {
   };
 
   return (
-    <article className={`bg-white/5 border shadow-sm hover:bg-white/10 transition rounded-xl ${compact ? 'p-3' : 'p-4'} ${event.pais === 'Canadá' ? 'border-green-500/30' : 'border-white/10'}`}>
+    <article className={`bg-white/5 border shadow-sm hover:bg-white/10 transition rounded-xl ${compact ? 'p-3' : 'p-4'} ${event.pais === 'Canadá' ? 'border-lime-500/30' : 'border-white/10'}`}>
       <div className="flex flex-wrap items-center gap-2 mb-2">
         {event.pais && (
-          <span className={`text-xs font-semibold px-2 py-1 rounded-full border ${event.pais === 'Canadá' ? 'bg-green-500/20 border-green-500/30' : 'bg-blue-500/20 border-blue-500/30'}`}>
+          <span className={`text-xs font-semibold px-2 py-1 rounded-full border ${event.pais === 'Canadá' ? 'bg-lime-500/20 border-lime-500/30' : 'bg-rose-500/20 border-rose-500/30'}`}>
             {event.pais}
           </span>
         )}

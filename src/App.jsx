@@ -133,9 +133,9 @@ function App() {
     <div className="bg-white/5 border border-white/10 rounded-2xl p-5 space-y-4">
       <div className="indicator-charts space-y-4">
         <div className="grid md:grid-cols-3 gap-4">
-          <div className="bg-gradient-to-br from-blue-600/20 to-blue-600/5 border border-blue-500/30 rounded-2xl p-4">
-            <div className="text-xs text-blue-300 font-semibold">EGDI Ecuador (2024)</div>
-            <div className="text-3xl font-bold text-blue-300">0,7800</div>
+          <div className="bg-gradient-to-br from-rose-600/20 to-rose-600/5 border border-rose-500/30 rounded-2xl p-4">
+            <div className="text-xs text-rose-300 font-semibold">EGDI Ecuador (2024)</div>
+            <div className="text-3xl font-bold text-rose-300">0,7800</div>
             <p className="text-xs text-slate-400">Nivel ALTO · Puesto 67</p>
           </div>
           <div className="bg-gradient-to-br from-cyan-600/20 to-cyan-600/5 border border-cyan-500/30 rounded-2xl p-4">
@@ -159,8 +159,8 @@ function App() {
                 <span className="text-slate-400">EC 0,7800 · CA 0,8452</span>
               </div>
               <div className="h-2 bg-white/10 rounded-full overflow-hidden flex">
-                <div className="h-full bg-blue-500" style={{ width: '78%' }}></div>
-                <div className="h-full bg-green-500" style={{ width: '84.52%' }}></div>
+                <div className="h-full bg-rose-500" style={{ width: '78%' }}></div>
+                <div className="h-full bg-lime-500" style={{ width: '84.52%' }}></div>
               </div>
             </div>
             <div>
@@ -180,12 +180,12 @@ function App() {
           <div className="bg-white/5 border border-white/10 rounded-xl p-4">
             <div className="text-xs text-slate-400 mb-3">Uso de canales digitales (sep 2025)</div>
             <div className="h-3 bg-white/10 rounded-full overflow-hidden flex">
-              <div className="h-full bg-blue-500" style={{ width: '76.7%' }} title="Electrónico 76,7%"></div>
-              <div className="h-full bg-amber-500" style={{ width: '23.3%' }} title="Físico 23,3%"></div>
+              <div className="h-full bg-rose-500" style={{ width: '76.7%' }} title="Electrónico 76,7%"></div>
+              <div className="h-full bg-lime-500" style={{ width: '23.3%' }} title="Físico 23,3%"></div>
             </div>
             <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mt-3">
-              <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-blue-500"></span>Electrónico: 76,7%</div>
-              <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-amber-500"></span>Físico: 23,3%</div>
+              <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>Electrónico: 76,7%</div>
+              <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-lime-500"></span>Físico: 23,3%</div>
             </div>
           </div>
           <div className="bg-white/5 border border-white/10 rounded-xl p-4">
@@ -290,39 +290,39 @@ function App() {
               <div>
                 <div className="flex items-center justify-between text-xs mb-1">
                   <span className="text-slate-300">🇪🇨 Ecuador</span>
-                  <span className="text-blue-300 font-semibold">0,7800</span>
+                  <span className="text-rose-300 font-semibold">0,7800</span>
                 </div>
                 <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-blue-500 rounded-full" style={{ width: '78.00%' }}></div>
+                  <div className="h-full bg-rose-500 rounded-full" style={{ width: '78.00%' }}></div>
                 </div>
               </div>
               <div>
                 <div className="flex items-center justify-between text-xs mb-1">
                   <span className="text-slate-300">🇨🇦 Canadá</span>
-                  <span className="text-green-300 font-semibold">0,8452</span>
+                  <span className="text-lime-300 font-semibold">0,8452</span>
                 </div>
                 <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-green-500 rounded-full" style={{ width: '84.52%' }}></div>
+                  <div className="h-full bg-lime-500 rounded-full" style={{ width: '84.52%' }}></div>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="bg-gradient-to-br from-blue-600/20 to-blue-600/5 border border-blue-500/30 rounded-2xl p-4">
+            <div className="bg-gradient-to-br from-rose-600/20 to-rose-600/5 border border-rose-500/30 rounded-2xl p-4">
               <div className="flex items-center justify-between">
                 <h4 className="font-semibold">🇪🇨 Ecuador</h4>
-                <span className="text-xs px-2 py-1 rounded-full bg-blue-500/20 border border-blue-500/30">Nivel ALTO</span>
+                <span className="text-xs px-2 py-1 rounded-full bg-rose-500/20 border border-rose-500/30">Nivel ALTO</span>
               </div>
-              <div className="mt-3 text-4xl font-bold text-blue-300">0,7800</div>
+              <div className="mt-3 text-4xl font-bold text-rose-300">0,7800</div>
               <p className="text-sm text-slate-400 mt-2">Puesto 67 mundial</p>
             </div>
-            <div className="bg-gradient-to-br from-green-600/20 to-green-600/5 border border-green-500/30 rounded-2xl p-4">
+            <div className="bg-gradient-to-br from-lime-500/20 to-lime-500/5 border border-lime-500/30 rounded-2xl p-4">
               <div className="flex items-center justify-between">
                 <h4 className="font-semibold">🇨🇦 Canadá</h4>
-                <span className="text-xs px-2 py-1 rounded-full bg-green-500/20 border border-green-500/30">Nivel MUY ALTO</span>
+                <span className="text-xs px-2 py-1 rounded-full bg-lime-500/20 border border-lime-500/30">Nivel MUY ALTO</span>
               </div>
-              <div className="mt-3 text-4xl font-bold text-green-300">0,8452</div>
+              <div className="mt-3 text-4xl font-bold text-lime-300">0,8452</div>
               <p className="text-sm text-slate-400 mt-2">Puesto 47 (top 50)</p>
             </div>
           </div>
@@ -447,7 +447,7 @@ function App() {
                   <span className="font-semibold">2761</span>
                 </div>
                 <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-indigo-400 rounded-full" style={{ width: '27.61%' }}></div>
+                  <div className="h-full bg-rose-400 rounded-full" style={{ width: '27.61%' }}></div>
                 </div>
               </div>
               <div>
@@ -468,17 +468,17 @@ function App() {
               <span>Total: 256 trámites</span>
             </div>
             <div className="h-3 bg-white/10 rounded-full overflow-hidden flex">
-              <div className="h-full bg-blue-500" style={{ width: '92.97%' }} title="SRI en Línea 92,97%"></div>
-              <div className="h-full bg-amber-500" style={{ width: '5.08%' }} title="GOB.ec 5,08%"></div>
+              <div className="h-full bg-rose-500" style={{ width: '92.97%' }} title="SRI en Línea 92,97%"></div>
+              <div className="h-full bg-lime-500" style={{ width: '5.08%' }} title="GOB.ec 5,08%"></div>
               <div className="h-full bg-purple-500" style={{ width: '1.95%' }} title="Quipux 1,95%"></div>
             </div>
             <div className="grid md:grid-cols-3 gap-3 text-xs text-slate-300 mt-3">
               <div className="flex items-center gap-2">
-                <span className="inline-block h-2 w-2 rounded-full bg-blue-500"></span>
+                <span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>
                 SRI en Línea: 238 (92,97%)
               </div>
               <div className="flex items-center gap-2">
-                <span className="inline-block h-2 w-2 rounded-full bg-amber-500"></span>
+                <span className="inline-block h-2 w-2 rounded-full bg-lime-500"></span>
                 GOB.ec: 13 (5,08%)
               </div>
               <div className="flex items-center gap-2">
@@ -763,7 +763,7 @@ function App() {
                     <span className="font-semibold">0,37%</span>
                   </div>
                   <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                    <div className="h-full bg-amber-400" style={{ width: '7.4%' }}></div>
+                    <div className="h-full bg-lime-400" style={{ width: '7.4%' }}></div>
                   </div>
                 </div>
                 <div>
@@ -787,7 +787,7 @@ function App() {
                     <span className="font-semibold">7,54%</span>
                   </div>
                   <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                    <div className="h-full bg-blue-400" style={{ width: '75.4%' }}></div>
+                    <div className="h-full bg-rose-400" style={{ width: '75.4%' }}></div>
                   </div>
                 </div>
                 <div>
@@ -820,7 +820,7 @@ function App() {
                     <span className="font-semibold">744,17</span>
                   </div>
                   <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                    <div className="h-full bg-indigo-400" style={{ width: '18.6%' }}></div>
+                    <div className="h-full bg-rose-400" style={{ width: '18.6%' }}></div>
                   </div>
                 </div>
                 <div>
@@ -879,7 +879,7 @@ function App() {
                     <span className="font-semibold">124.676,1</span>
                   </div>
                   <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                    <div className="h-full bg-blue-400" style={{ width: '95.9%' }}></div>
+                    <div className="h-full bg-rose-400" style={{ width: '95.9%' }}></div>
                   </div>
                 </div>
               </div>
@@ -1058,10 +1058,10 @@ function App() {
               </div>
               <div className="space-y-2 text-xs">
                 {[
-                  { label: 'Oficinas', value: 1.0, color: 'bg-blue-500' },
+                  { label: 'Oficinas', value: 1.0, color: 'bg-rose-500' },
                   { label: 'Cajeros', value: 3.7, color: 'bg-cyan-500' },
                   { label: 'Corresponsales', value: 36.1, color: 'bg-emerald-500' },
-                  { label: 'Datáfonos', value: 71.7, color: 'bg-amber-500' },
+                  { label: 'Datáfonos', value: 71.7, color: 'bg-lime-500' },
                   { label: 'Cajas', value: 20.8, color: 'bg-purple-500' },
                 ].map(item => (
                   <div key={item.label}>
@@ -1084,10 +1084,10 @@ function App() {
               </div>
               <div className="space-y-2 text-xs">
                 {[
-                  { label: 'Oficinas', value: 4.8, color: 'bg-blue-500' },
+                  { label: 'Oficinas', value: 4.8, color: 'bg-rose-500' },
                   { label: 'Cajeros', value: 17.7, color: 'bg-cyan-500' },
                   { label: 'Corresponsales', value: 171.2, color: 'bg-emerald-500' },
-                  { label: 'Datáfonos', value: 339.9, color: 'bg-amber-500' },
+                  { label: 'Datáfonos', value: 339.9, color: 'bg-lime-500' },
                   { label: 'Cajas', value: 98.6, color: 'bg-purple-500' },
                 ].map(item => (
                   <div key={item.label}>
@@ -1108,12 +1108,12 @@ function App() {
             <div className="bg-white/5 border border-white/10 rounded-xl p-4">
               <div className="text-xs text-slate-400 mb-3">Cajeros automáticos por ubicación</div>
               <div className="h-3 bg-white/10 rounded-full overflow-hidden flex">
-                <div className="h-full bg-blue-500" style={{ width: '40.6%' }} title="En oficina 40,6%"></div>
+                <div className="h-full bg-rose-500" style={{ width: '40.6%' }} title="En oficina 40,6%"></div>
                 <div className="h-full bg-slate-300" style={{ width: '59.4%' }} title="Fuera de oficina 59,4%"></div>
               </div>
               <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mt-3">
                 <div className="flex items-center gap-2">
-                  <span className="inline-block h-2 w-2 rounded-full bg-blue-500"></span>
+                  <span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>
                   En oficina: 40,6%
                 </div>
                 <div className="flex items-center gap-2">
@@ -1127,8 +1127,8 @@ function App() {
               <div className="text-xs text-slate-400 mb-3">Corresponsales no bancarios por ubicación</div>
               <div className="space-y-2 text-xs">
                 {[
-                  { label: 'Fábrica / Industria', value: 24.9, color: 'bg-blue-500' },
-                  { label: 'Tienda', value: 16.9, color: 'bg-amber-500' },
+                  { label: 'Fábrica / Industria', value: 24.9, color: 'bg-rose-500' },
+                  { label: 'Tienda', value: 16.9, color: 'bg-lime-500' },
                   { label: 'Bazar', value: 9.4, color: 'bg-purple-500' },
                   { label: 'Minimarket', value: 8.7, color: 'bg-emerald-500' },
                   { label: 'Salud y afines', value: 7.8, color: 'bg-cyan-500' },
@@ -1164,7 +1164,7 @@ function App() {
                   </div>
                   <div className="h-2 bg-white/10 rounded-full overflow-hidden flex">
                     <div className="h-full bg-emerald-500" style={{ width: `${Math.min(region.v2024 / 4, 100)}%` }} title={`Sep 2024: ${region.v2024}`}></div>
-                    <div className="h-full bg-blue-500" style={{ width: `${Math.min(region.v2025 / 4, 100)}%` }} title={`Sep 2025: ${region.v2025}`}></div>
+                    <div className="h-full bg-rose-500" style={{ width: `${Math.min(region.v2025 / 4, 100)}%` }} title={`Sep 2025: ${region.v2025}`}></div>
                   </div>
                 </div>
               ))}
@@ -1332,8 +1332,8 @@ function App() {
               <div className="text-xs text-slate-400 mb-3">Participación por tipo de canal (sep 2025)</div>
               <div className="space-y-2 text-xs">
                 {[
-                  { label: 'Banca celular', value: 49.40, color: 'bg-blue-500' },
-                  { label: 'Oficina', value: 23.22, color: 'bg-amber-500' },
+                  { label: 'Banca celular', value: 49.40, color: 'bg-rose-500' },
+                  { label: 'Oficina', value: 23.22, color: 'bg-lime-500' },
                   { label: 'Internet', value: 9.87, color: 'bg-cyan-500' },
                   { label: 'Datáfono POS', value: 7.08, color: 'bg-emerald-500' },
                   { label: 'Cajeros automáticos', value: 6.29, color: 'bg-purple-500' },
@@ -1441,12 +1441,12 @@ function App() {
             <div className="bg-white/5 border border-white/10 rounded-xl p-4">
               <div className="text-xs text-slate-400 mb-3">Adultos con tarjeta de crédito</div>
               <div className="h-3 bg-white/10 rounded-full overflow-hidden flex mb-3">
-                <div className="h-full bg-blue-500" style={{ width: '30.9%' }} title="Tiene 30,9%"></div>
-                <div className="h-full bg-amber-500" style={{ width: '69.1%' }} title="No tiene 69,1%"></div>
+                <div className="h-full bg-rose-500" style={{ width: '30.9%' }} title="Tiene 30,9%"></div>
+                <div className="h-full bg-lime-500" style={{ width: '69.1%' }} title="No tiene 69,1%"></div>
               </div>
               <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mb-4">
-                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-blue-500"></span>Tiene: 30,9%</div>
-                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-amber-500"></span>No tiene: 69,1%</div>
+                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>Tiene: 30,9%</div>
+                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-lime-500"></span>No tiene: 69,1%</div>
               </div>
 
               <div className="text-xs text-slate-400 mb-2">Por sexo</div>
@@ -1470,7 +1470,7 @@ function App() {
                   <div key={item.label}>
                     <div className="flex items-center justify-between mb-1"><span>{item.label}</span><span className="text-slate-400">{item.men.toFixed(1).replace('.', ',')}% / {item.women.toFixed(1).replace('.', ',')}%</span></div>
                     <div className="h-2 bg-white/10 rounded-full overflow-hidden flex">
-                      <div className="h-full bg-blue-500" style={{ width: `${Math.max(item.men * 1.6, 2)}%` }}></div>
+                      <div className="h-full bg-rose-500" style={{ width: `${Math.max(item.men * 1.6, 2)}%` }}></div>
                       <div className="h-full bg-pink-400" style={{ width: `${Math.max(item.women * 1.6, 2)}%` }}></div>
                     </div>
                   </div>
@@ -1484,12 +1484,12 @@ function App() {
               <div className="mb-4">
                 <div className="text-xs text-slate-400 mb-2">Consumo — adultos con crédito</div>
                 <div className="h-3 bg-white/10 rounded-full overflow-hidden flex mb-2">
-                  <div className="h-full bg-blue-500" style={{ width: '11%' }} title="Tiene 11,0%"></div>
-                  <div className="h-full bg-amber-500" style={{ width: '89%' }} title="No tiene 89,0%"></div>
+                  <div className="h-full bg-rose-500" style={{ width: '11%' }} title="Tiene 11,0%"></div>
+                  <div className="h-full bg-lime-500" style={{ width: '89%' }} title="No tiene 89,0%"></div>
                 </div>
                 <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mb-3">
-                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-blue-500"></span>Tiene: 11,0%</div>
-                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-amber-500"></span>No tiene: 89,0%</div>
+                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>Tiene: 11,0%</div>
+                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-lime-500"></span>No tiene: 89,0%</div>
                 </div>
                 <div className="text-xs text-slate-400 mb-1">Por sexo</div>
                 <div className="space-y-2 text-xs">
@@ -1511,7 +1511,7 @@ function App() {
                     <div key={item.label}>
                       <div className="flex items-center justify-between mb-1"><span>{item.label}</span><span className="text-slate-400">{item.men.toFixed(1).replace('.', ',')}% / {item.women.toFixed(1).replace('.', ',')}%</span></div>
                       <div className="h-2 bg-white/10 rounded-full overflow-hidden flex">
-                        <div className="h-full bg-blue-500" style={{ width: `${Math.max(item.men * 1.4, 2)}%` }}></div>
+                        <div className="h-full bg-rose-500" style={{ width: `${Math.max(item.men * 1.4, 2)}%` }}></div>
                         <div className="h-full bg-pink-400" style={{ width: `${Math.max(item.women * 1.4, 2)}%` }}></div>
                       </div>
                     </div>
@@ -1522,12 +1522,12 @@ function App() {
               <div>
                 <div className="text-xs text-slate-400 mb-2">Microcréditos — adultos con crédito</div>
                 <div className="h-3 bg-white/10 rounded-full overflow-hidden flex mb-2">
-                  <div className="h-full bg-blue-500" style={{ width: '3.8%' }} title="Tiene 3,8%"></div>
-                  <div className="h-full bg-amber-500" style={{ width: '96.2%' }} title="No tiene 96,2%"></div>
+                  <div className="h-full bg-rose-500" style={{ width: '3.8%' }} title="Tiene 3,8%"></div>
+                  <div className="h-full bg-lime-500" style={{ width: '96.2%' }} title="No tiene 96,2%"></div>
                 </div>
                 <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mb-3">
-                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-blue-500"></span>Tiene: 3,8%</div>
-                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-amber-500"></span>No tiene: 96,2%</div>
+                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>Tiene: 3,8%</div>
+                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-lime-500"></span>No tiene: 96,2%</div>
                 </div>
                 <div className="text-xs text-slate-400 mb-1">Por sexo</div>
                 <div className="space-y-2 text-xs">
@@ -1549,7 +1549,7 @@ function App() {
                     <div key={item.label}>
                       <div className="flex items-center justify-between mb-1"><span>{item.label}</span><span className="text-slate-400">{item.men.toFixed(1).replace('.', ',')}% / {item.women.toFixed(1).replace('.', ',')}%</span></div>
                       <div className="h-2 bg-white/10 rounded-full overflow-hidden flex">
-                        <div className="h-full bg-blue-500" style={{ width: `${Math.max(item.men * 1.4, 2)}%` }}></div>
+                        <div className="h-full bg-rose-500" style={{ width: `${Math.max(item.men * 1.4, 2)}%` }}></div>
                         <div className="h-full bg-pink-400" style={{ width: `${Math.max(item.women * 1.4, 2)}%` }}></div>
                       </div>
                     </div>
@@ -1567,11 +1567,11 @@ function App() {
                 <span className="text-emerald-300">+9,6% anual</span>
               </div>
               <div className="h-3 bg-white/10 rounded-full overflow-hidden flex">
-                <div className="h-full bg-blue-500" style={{ width: '50.8%' }} title="Hombres 50,8%"></div>
+                <div className="h-full bg-rose-500" style={{ width: '50.8%' }} title="Hombres 50,8%"></div>
                 <div className="h-full bg-pink-400" style={{ width: '49.2%' }} title="Mujeres 49,2%"></div>
               </div>
               <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mt-3">
-                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-blue-500"></span>Hombres: 50,8%</div>
+                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>Hombres: 50,8%</div>
                 <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-pink-400"></span>Mujeres: 49,2%</div>
               </div>
             </div>
@@ -1582,11 +1582,11 @@ function App() {
                 <span className="text-emerald-300">+6,1% anual</span>
               </div>
               <div className="h-3 bg-white/10 rounded-full overflow-hidden flex">
-                <div className="h-full bg-blue-500" style={{ width: '55.2%' }} title="Hombres 55,2%"></div>
+                <div className="h-full bg-rose-500" style={{ width: '55.2%' }} title="Hombres 55,2%"></div>
                 <div className="h-full bg-pink-400" style={{ width: '44.8%' }} title="Mujeres 44,8%"></div>
               </div>
               <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mt-3">
-                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-blue-500"></span>Hombres: 55,2%</div>
+                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>Hombres: 55,2%</div>
                 <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-pink-400"></span>Mujeres: 44,8%</div>
               </div>
             </div>
@@ -1666,7 +1666,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(1200px_circle_at_10%_-10%,rgba(34,211,238,0.15),transparent),radial-gradient(800px_circle_at_90%_0%,rgba(99,102,241,0.12),transparent)] bg-slate-950 text-white">
+    <div className="min-h-screen bg-[radial-gradient(1200px_circle_at_10%_-10%,rgba(244,63,94,0.18),transparent),radial-gradient(800px_circle_at_90%_0%,rgba(163,230,53,0.14),transparent)] bg-slate-950 text-white">
       <header className="sticky top-0 z-10 border-b border-white/10 bg-slate-950/80 backdrop-blur">
         <div className="max-w-6xl mx-auto px-4 py-4 flex flex-col gap-5">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
@@ -1788,20 +1788,20 @@ function App() {
                 </div>
 
                 <div className="grid grid-cols-3 gap-4">
-                  <div className="bg-gradient-to-br from-blue-600/20 to-blue-600/5 border border-blue-500/30 rounded-2xl p-6 hover:border-blue-500/50 transition flex flex-col items-center text-center">
+                  <div className="bg-gradient-to-br from-rose-600/20 to-rose-600/5 border border-rose-500/30 rounded-2xl p-6 hover:border-rose-500/50 transition flex flex-col items-center text-center">
                     <div className="flex items-center justify-center gap-2 mb-3">
                       <span className="text-2xl">📊</span>
-                      <div className="text-xs font-semibold text-blue-400 uppercase">Total</div>
+                      <div className="text-xs font-semibold text-rose-400 uppercase">Total</div>
                     </div>
-                    <div className="text-4xl font-bold text-blue-300">{stats.total}</div>
+                    <div className="text-4xl font-bold text-rose-300">{stats.total}</div>
                     <p className="text-xs text-slate-400 mt-3">Eventos en la base</p>
                   </div>
-                  <div className="bg-gradient-to-br from-green-600/20 to-green-600/5 border border-green-500/30 rounded-2xl p-6 hover:border-green-500/50 transition flex flex-col items-center text-center">
+                  <div className="bg-gradient-to-br from-lime-500/20 to-lime-500/5 border border-lime-500/30 rounded-2xl p-6 hover:border-lime-500/50 transition flex flex-col items-center text-center">
                     <div className="flex items-center justify-center gap-2 mb-3">
                       <span className="text-2xl">✅</span>
-                      <div className="text-xs font-semibold text-green-400 uppercase">Mostrados</div>
+                      <div className="text-xs font-semibold text-lime-400 uppercase">Mostrados</div>
                     </div>
-                    <div className="text-4xl font-bold text-green-300">{stats.shown}</div>
+                    <div className="text-4xl font-bold text-lime-300">{stats.shown}</div>
                     <p className="text-xs text-slate-400 mt-3">Después de filtros</p>
                   </div>
                   <div className="bg-gradient-to-br from-purple-600/20 to-purple-600/5 border border-purple-500/30 rounded-2xl p-6 hover:border-purple-500/50 transition flex flex-col items-center text-center">
@@ -2043,7 +2043,7 @@ function App() {
                       <div className="text-xs text-slate-400">{section.category}</div>
                       <div className="font-semibold text-sm text-white mt-1">{section.title}</div>
                       <div className="h-1 bg-white/10 rounded-full overflow-hidden mt-3">
-                        <div className="h-full bg-gradient-to-r from-cyan-400 to-indigo-400" style={{ width: '60%' }}></div>
+                        <div className="h-full bg-gradient-to-r from-cyan-400 to-rose-400" style={{ width: '60%' }}></div>
                       </div>
                     </button>
                   ))}

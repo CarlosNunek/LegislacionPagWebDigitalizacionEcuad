@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
 
 :root {
-    --primary: #a855f7;
-    --primary-dark: #9333ea;
-    --secondary: #06b6d4;
-    --accent: #14b8a6;
-    --bg-dark: #0f172a;
-    --bg-card: #1e293b;
-    --bg-card-hover: #334155;
+    --primary: #f43f5e;
+    --primary-dark: #e11d48;
+    --secondary: #22d3ee;
+    --accent: #a3e635;
+    --bg-dark: #020617;
+    --bg-card: #0f172a;
+    --bg-card-hover: #1d4ed8;
     --text-primary: #f1f5f9;
-    --text-secondary: #cbd5e1;
-    --text-muted: #94a3b8;
-    --border: #334155;
-    --success: #10b981;
-    --warning: #f59e0b;
+    --text-secondary: #e0f2fe;
+    --text-muted: #bae6fd;
+    --border: #1d4ed8;
+    --success: #4ade80;
+    --warning: #a3e635;
 }
 
 * {
@@ -24,7 +24,7 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    background: linear-gradient(135deg, #020617 0%, #0f172a 100%);
     color: var(--text-primary);
     line-height: 1.6;
     min-height: 100vh;
@@ -42,7 +42,7 @@ body {
     text-align: center;
     padding: 3rem 2rem;
     margin-bottom: 4rem;
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(6, 182, 212, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.1) 0%, rgba(34, 211, 238, 0.1) 100%);
     border-radius: 24px;
     border: 1px solid var(--border);
     backdrop-filter: blur(10px);
@@ -127,7 +127,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(168, 85, 247, 0.1), transparent);
+    background: linear-gradient(90deg, transparent, rgba(244, 63, 94, 0.1), transparent);
     transition: left 0.5s;
 }
 
@@ -137,14 +137,14 @@ body {
 
 .tab-btn:hover {
     color: var(--text-primary);
-    background: rgba(168, 85, 247, 0.1);
+    background: rgba(244, 63, 94, 0.1);
 }
 
 .tab-btn.active {
     background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
     border-color: var(--primary);
     color: white;
-    box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4);
+    box-shadow: 0 10px 30px rgba(244, 63, 94, 0.4);
 }
 
 .tab-icon {
@@ -268,12 +268,12 @@ body {
 }
 
 .insight-genz {
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(168, 85, 247, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.1) 0%, rgba(244, 63, 94, 0.05) 100%);
     border-left-color: var(--primary);
 }
 
 .insight-millennial {
-    background: linear-gradient(135deg, rgba(6, 182, 212, 0.1) 0%, rgba(6, 182, 212, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(34, 211, 238, 0.1) 0%, rgba(34, 211, 238, 0.05) 100%);
     border-left-color: var(--secondary);
 }
 
@@ -347,7 +347,7 @@ body {
 .trend-card-modern:hover {
     transform: translateY(-8px);
     border-color: var(--primary);
-    box-shadow: 0 20px 60px rgba(168, 85, 247, 0.3);
+    box-shadow: 0 20px 60px rgba(244, 63, 94, 0.3);
 }
 
 .trend-icon-large {
@@ -386,7 +386,7 @@ body {
     align-items: center;
     gap: 1.5rem;
     padding: 2rem;
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.05) 0%, rgba(6, 182, 212, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.05) 0%, rgba(34, 211, 238, 0.05) 100%);
     border-radius: 16px;
     border: 1px solid var(--border);
     transition: all 0.3s ease;
@@ -431,7 +431,7 @@ body {
 
 /* Dashboard Conclusion */
 .dashboard-conclusion {
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(6, 182, 212, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.1) 0%, rgba(34, 211, 238, 0.1) 100%);
     border-radius: 24px;
     padding: 3rem;
     margin-top: 4rem;
@@ -529,14 +529,14 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    background: rgba(168, 85, 247, 0.05);
+    background: rgba(244, 63, 94, 0.05);
     border-radius: 12px;
     border: 1px solid var(--border);
     transition: all 0.3s ease;
 }
 
 .gauge-stat:hover {
-    background: rgba(168, 85, 247, 0.1);
+    background: rgba(244, 63, 94, 0.1);
     border-color: var(--primary);
 }
 
@@ -579,7 +579,7 @@ body {
 .stat-card:hover {
     transform: translateY(-5px);
     border-color: var(--primary);
-    box-shadow: 0 15px 40px rgba(168, 85, 247, 0.3);
+    box-shadow: 0 15px 40px rgba(244, 63, 94, 0.3);
 }
 
 .stat-icon {
@@ -612,7 +612,7 @@ body {
 }
 
 .future-chart-item {
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.05) 0%, rgba(6, 182, 212, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.05) 0%, rgba(34, 211, 238, 0.05) 100%);
     border-radius: 16px;
     padding: 3rem 2rem;
     text-align: center;
@@ -622,7 +622,7 @@ body {
 
 .future-chart-item:hover {
     border-color: var(--primary);
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(6, 182, 212, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.1) 0%, rgba(34, 211, 238, 0.1) 100%);
 }
 
 .future-chart-item .placeholder-icon {
@@ -647,7 +647,7 @@ body {
 .dashboard-placeholder {
     text-align: center;
     padding: 6rem 2rem;
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.05) 0%, rgba(6, 182, 212, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.05) 0%, rgba(34, 211, 238, 0.05) 100%);
     border-radius: 24px;
     border: 2px dashed var(--border);
     margin: 2rem 0;
@@ -712,7 +712,7 @@ body {
 .feature-item:hover {
     transform: translateY(-5px);
     border-color: var(--primary);
-    box-shadow: 0 10px 30px rgba(168, 85, 247, 0.3);
+    box-shadow: 0 10px 30px rgba(244, 63, 94, 0.3);
 }
 
 .feature-icon {
@@ -748,7 +748,7 @@ body {
     background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 50%, var(--accent) 100%);
     transform: translateY(-50%);
     border-radius: 2px;
-    box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+    box-shadow: 0 0 20px rgba(244, 63, 94, 0.5);
 }
 
 .timeline-points {
@@ -794,7 +794,7 @@ body {
     background: var(--primary);
     border: 4px solid var(--bg-dark);
     border-radius: 50%;
-    box-shadow: 0 0 20px rgba(168, 85, 247, 0.8);
+    box-shadow: 0 0 20px rgba(244, 63, 94, 0.8);
     transition: all 0.3s ease;
     position: relative;
     z-index: 10;
@@ -802,7 +802,7 @@ body {
 
 .timeline-point:hover .point-dot {
     transform: scale(1.3);
-    box-shadow: 0 0 40px rgba(168, 85, 247, 1);
+    box-shadow: 0 0 40px rgba(244, 63, 94, 1);
 }
 
 .point-dot.has-multiple::after {
@@ -838,7 +838,7 @@ body {
 .timeline-point:hover .point-label {
     background: var(--primary);
     border-color: var(--primary);
-    box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4);
+    box-shadow: 0 10px 30px rgba(244, 63, 94, 0.4);
 }
 
 /* Modal Styles */
@@ -849,7 +849,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(15, 23, 42, 0.9);
+    background: rgba(2, 6, 23, 0.9);
     backdrop-filter: blur(10px);
     z-index: 1000;
     align-items: center;
@@ -881,7 +881,7 @@ body {
     overflow-y: auto;
     position: relative;
     border: 2px solid var(--primary);
-    box-shadow: 0 30px 80px rgba(168, 85, 247, 0.5);
+    box-shadow: 0 30px 80px rgba(244, 63, 94, 0.5);
     animation: slideIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -916,7 +916,7 @@ body {
 }
 
 .modal-close:hover {
-    background: rgba(168, 85, 247, 0.2);
+    background: rgba(244, 63, 94, 0.2);
     color: var(--primary);
     transform: rotate(90deg);
 }
@@ -950,7 +950,7 @@ body {
 }
 
 .event-item {
-    background: rgba(168, 85, 247, 0.05);
+    background: rgba(244, 63, 94, 0.05);
     padding: 1.5rem;
     border-radius: 12px;
     margin-bottom: 1.5rem;
@@ -959,7 +959,7 @@ body {
 }
 
 .event-item:hover {
-    background: rgba(168, 85, 247, 0.1);
+    background: rgba(244, 63, 94, 0.1);
     transform: translateX(5px);
 }
 
@@ -1014,13 +1014,13 @@ body {
 }
 
 .category-tag.tech {
-    background: rgba(20, 184, 166, 0.2);
+    background: rgba(34, 211, 238, 0.2);
     color: var(--accent);
     border: 1px solid var(--accent);
 }
 
 .category-tag.fintech {
-    background: rgba(6, 182, 212, 0.2);
+    background: rgba(34, 211, 238, 0.2);
     color: var(--secondary);
     border: 1px solid var(--secondary);
 }
@@ -1037,19 +1037,19 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     width: 100%;
-    box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4);
+    box-shadow: 0 10px 30px rgba(244, 63, 94, 0.4);
 }
 
 .modal-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 15px 40px rgba(168, 85, 247, 0.6);
+    box-shadow: 0 15px 40px rgba(244, 63, 94, 0.6);
 }
 
 /* Analysis Section */
 .analysis-section {
     margin-top: 6rem;
     padding: 3rem;
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.05) 0%, rgba(6, 182, 212, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.05) 0%, rgba(34, 211, 238, 0.05) 100%);
     border-radius: 24px;
     border: 1px solid var(--border);
     animation: fadeInUp 0.8s ease-out;
@@ -1101,7 +1101,7 @@ body {
 .analysis-card:hover {
     transform: translateY(-10px);
     border-color: var(--primary);
-    box-shadow: 0 20px 60px rgba(168, 85, 247, 0.3);
+    box-shadow: 0 20px 60px rgba(244, 63, 94, 0.3);
 }
 
 .card-icon {
@@ -1221,7 +1221,7 @@ body {
 }
 
 .kpi-card {
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(6, 182, 212, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.1) 0%, rgba(34, 211, 238, 0.05) 100%);
     border-radius: 20px;
     padding: 2rem;
     border: 2px solid var(--border);
@@ -1238,7 +1238,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.15) 0%, rgba(6, 182, 212, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.15) 0%, rgba(34, 211, 238, 0.1) 100%);
     opacity: 0;
     transition: opacity 0.4s ease;
 }
@@ -1250,7 +1250,7 @@ body {
 .kpi-card:hover {
     transform: translateY(-10px);
     border-color: var(--primary);
-    box-shadow: 0 20px 50px rgba(168, 85, 247, 0.4);
+    box-shadow: 0 20px 50px rgba(244, 63, 94, 0.4);
 }
 
 .kpi-icon {
@@ -1324,7 +1324,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(6, 182, 212, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.1) 0%, rgba(34, 211, 238, 0.1) 100%);
     opacity: 0;
     transition: opacity 0.4s ease;
 }
@@ -1336,7 +1336,7 @@ body {
 .trend-card:hover {
     transform: translateY(-10px);
     border-color: var(--primary);
-    box-shadow: 0 20px 50px rgba(168, 85, 247, 0.3);
+    box-shadow: 0 20px 50px rgba(244, 63, 94, 0.3);
 }
 
 .trend-icon {
@@ -1381,7 +1381,7 @@ body {
     align-items: center;
     gap: 1.5rem;
     padding: 1.5rem;
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.05) 0%, rgba(6, 182, 212, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.05) 0%, rgba(34, 211, 238, 0.05) 100%);
     border-radius: 16px;
     border: 2px solid var(--border);
     transition: all 0.3s ease;
@@ -1390,8 +1390,8 @@ body {
 .stat-item:hover {
     transform: translateY(-5px);
     border-color: var(--primary);
-    box-shadow: 0 15px 40px rgba(168, 85, 247, 0.3);
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(6, 182, 212, 0.1) 100%);
+    box-shadow: 0 15px 40px rgba(244, 63, 94, 0.3);
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.1) 0%, rgba(34, 211, 238, 0.1) 100%);
 }
 
 .stat-item .stat-icon {
@@ -1591,7 +1591,7 @@ body {
 
 .comparison-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 20px 60px rgba(168, 85, 247, 0.3);
+    box-shadow: 0 20px 60px rgba(244, 63, 94, 0.3);
 }
 
 .comparison-card:hover::before {
@@ -1692,7 +1692,7 @@ body {
     background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
     border-radius: 4px;
     transition: width 1s ease-out;
-    box-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+    box-shadow: 0 0 10px rgba(244, 63, 94, 0.5);
 }
 
 .metric-detail {
@@ -1714,11 +1714,11 @@ body {
 }
 
 .metric-signature .metric-progress {
-    background: linear-gradient(90deg, #1e293b, #334155);
+    background: linear-gradient(90deg, #0f172a, #1d4ed8);
 }
 
 .metric-ecommerce .metric-progress {
-    background: linear-gradient(90deg, #10b981, #34d399);
+    background: linear-gradient(90deg, #fb7185, #34d399);
 }
 
 /* Responsive adjustments for new sections */
