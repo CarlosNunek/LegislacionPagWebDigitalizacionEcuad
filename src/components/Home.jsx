@@ -1,3 +1,4 @@
+import TimelineEmbed from "./TimelineEmbed";
 export function Home() {
   return (
     <div className="min-h-screen bg-[radial-gradient(1200px_circle_at_10%_-10%,rgba(34,211,238,0.15),transparent),radial-gradient(800px_circle_at_90%_0%,rgba(99,102,241,0.12),transparent)] bg-slate-950 text-white">
@@ -51,6 +52,7 @@ export function Home() {
             </div>
           </div>
         </section>
+         
 
         <section className="grid md:grid-cols-3 gap-4">
           <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
@@ -66,6 +68,7 @@ export function Home() {
             <p className="text-sm text-slate-300">Secciones dinámicas para metodología, resultados y conclusiones.</p>
           </div>
         </section>
+        <TimelineEmbed />
 
         <section className="flex justify-center">
           <div className="h-44 w-44 md:h-52 md:w-52 rounded-full bg-white/90 border-4 border-white/20 shadow-lg flex items-center justify-center p-3">
@@ -75,8 +78,13 @@ export function Home() {
               className="h-full w-full object-contain"
             />
           </div>
+
         </section>
+      
       </main>
+     
     </div>
+    
   );
+  
 }
