@@ -133,14 +133,14 @@ function App() {
     <div className="bg-white/5 border border-white/10 rounded-2xl p-5 space-y-4">
       <div className="indicator-charts space-y-4">
         <div className="grid md:grid-cols-3 gap-4">
-          <div className="bg-gradient-to-br from-rose-600/20 to-rose-600/5 border border-rose-500/30 rounded-2xl p-4">
-            <div className="text-xs text-rose-300 font-semibold">EGDI Ecuador (2024)</div>
-            <div className="text-3xl font-bold text-rose-300">0,7800</div>
+          <div className="bg-gradient-to-br from-indigo-600/20 to-indigo-600/5 border border-indigo-500/30 rounded-2xl p-4">
+            <div className="text-xs text-indigo-300 font-semibold">EGDI Ecuador (2024)</div>
+            <div className="text-3xl font-bold text-indigo-300">0,7800</div>
             <p className="text-xs text-slate-400">Nivel ALTO · Puesto 67</p>
           </div>
-          <div className="bg-gradient-to-br from-cyan-600/20 to-cyan-600/5 border border-cyan-500/30 rounded-2xl p-4">
-            <div className="text-xs text-cyan-300 font-semibold">Internet en hogares (EC)</div>
-            <div className="text-3xl font-bold text-cyan-300">71,3%</div>
+          <div className="bg-gradient-to-br from-teal-600/20 to-teal-600/5 border border-teal-500/30 rounded-2xl p-4">
+            <div className="text-xs text-teal-300 font-semibold">Internet en hogares (EC)</div>
+            <div className="text-3xl font-bold text-teal-300">71,3%</div>
             <p className="text-xs text-slate-400">ENEMDU 2025</p>
           </div>
           <div className="bg-gradient-to-br from-emerald-600/20 to-emerald-600/5 border border-emerald-500/30 rounded-2xl p-4">
@@ -159,8 +159,8 @@ function App() {
                 <span className="text-slate-400">EC 0,7800 · CA 0,8452</span>
               </div>
               <div className="h-2 bg-white/10 rounded-full overflow-hidden flex">
-                <div className="h-full bg-rose-500" style={{ width: '78%' }}></div>
-                <div className="h-full bg-lime-500" style={{ width: '84.52%' }}></div>
+                <div className="h-full bg-indigo-500" style={{ width: '78%' }}></div>
+                <div className="h-full bg-amber-500" style={{ width: '84.52%' }}></div>
               </div>
             </div>
             <div>
@@ -169,7 +169,7 @@ function App() {
                 <span className="text-slate-400">EC 71,3% · CA 96,1%</span>
               </div>
               <div className="h-2 bg-white/10 rounded-full overflow-hidden flex">
-                <div className="h-full bg-cyan-500" style={{ width: '71.3%' }}></div>
+                <div className="h-full bg-teal-500" style={{ width: '71.3%' }}></div>
                 <div className="h-full bg-emerald-500" style={{ width: '96.1%' }}></div>
               </div>
             </div>
@@ -180,12 +180,12 @@ function App() {
           <div className="bg-white/5 border border-white/10 rounded-xl p-4">
             <div className="text-xs text-slate-400 mb-3">Uso de canales digitales (sep 2025)</div>
             <div className="h-3 bg-white/10 rounded-full overflow-hidden flex">
-              <div className="h-full bg-rose-500" style={{ width: '76.7%' }} title="Electrónico 76,7%"></div>
-              <div className="h-full bg-lime-500" style={{ width: '23.3%' }} title="Físico 23,3%"></div>
+              <div className="h-full bg-indigo-500" style={{ width: '76.7%' }} title="Electrónico 76,7%"></div>
+              <div className="h-full bg-amber-500" style={{ width: '23.3%' }} title="Físico 23,3%"></div>
             </div>
             <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mt-3">
-              <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>Electrónico: 76,7%</div>
-              <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-lime-500"></span>Físico: 23,3%</div>
+              <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-indigo-500"></span>Electrónico: 76,7%</div>
+              <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-amber-500"></span>Físico: 23,3%</div>
             </div>
           </div>
           <div className="bg-white/5 border border-white/10 rounded-xl p-4">
@@ -290,39 +290,39 @@ function App() {
               <div>
                 <div className="flex items-center justify-between text-xs mb-1">
                   <span className="text-slate-300">🇪🇨 Ecuador</span>
-                  <span className="text-rose-300 font-semibold">0,7800</span>
+                  <span className="text-indigo-300 font-semibold">0,7800</span>
                 </div>
                 <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-rose-500 rounded-full" style={{ width: '78.00%' }}></div>
+                  <div className="h-full bg-indigo-500 rounded-full" style={{ width: '78.00%' }}></div>
                 </div>
               </div>
               <div>
                 <div className="flex items-center justify-between text-xs mb-1">
                   <span className="text-slate-300">🇨🇦 Canadá</span>
-                  <span className="text-lime-300 font-semibold">0,8452</span>
+                  <span className="text-amber-300 font-semibold">0,8452</span>
                 </div>
                 <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-lime-500 rounded-full" style={{ width: '84.52%' }}></div>
+                  <div className="h-full bg-amber-500 rounded-full" style={{ width: '84.52%' }}></div>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="bg-gradient-to-br from-rose-600/20 to-rose-600/5 border border-rose-500/30 rounded-2xl p-4">
+            <div className="bg-gradient-to-br from-indigo-600/20 to-indigo-600/5 border border-indigo-500/30 rounded-2xl p-4">
               <div className="flex items-center justify-between">
                 <h4 className="font-semibold">🇪🇨 Ecuador</h4>
-                <span className="text-xs px-2 py-1 rounded-full bg-rose-500/20 border border-rose-500/30">Nivel ALTO</span>
+                <span className="text-xs px-2 py-1 rounded-full bg-indigo-500/20 border border-indigo-500/30">Nivel ALTO</span>
               </div>
-              <div className="mt-3 text-4xl font-bold text-rose-300">0,7800</div>
+              <div className="mt-3 text-4xl font-bold text-indigo-300">0,7800</div>
               <p className="text-sm text-slate-400 mt-2">Puesto 67 mundial</p>
             </div>
-            <div className="bg-gradient-to-br from-lime-500/20 to-lime-500/5 border border-lime-500/30 rounded-2xl p-4">
+            <div className="bg-gradient-to-br from-amber-500/20 to-amber-500/5 border border-amber-500/30 rounded-2xl p-4">
               <div className="flex items-center justify-between">
                 <h4 className="font-semibold">🇨🇦 Canadá</h4>
-                <span className="text-xs px-2 py-1 rounded-full bg-lime-500/20 border border-lime-500/30">Nivel MUY ALTO</span>
+                <span className="text-xs px-2 py-1 rounded-full bg-amber-500/20 border border-amber-500/30">Nivel MUY ALTO</span>
               </div>
-              <div className="mt-3 text-4xl font-bold text-lime-300">0,8452</div>
+              <div className="mt-3 text-4xl font-bold text-amber-300">0,8452</div>
               <p className="text-sm text-slate-400 mt-2">Puesto 47 (top 50)</p>
             </div>
           </div>
@@ -390,7 +390,7 @@ function App() {
               href="/Technical%20Appendix%20(Web%20version)%2030102024.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-cyan-300 hover:underline ml-1"
+              className="text-teal-300 hover:underline ml-1"
             >
               UN E-Government Survey 2024 — Technical Appendix (PDF)
             </a>
@@ -438,7 +438,7 @@ function App() {
                   <span className="font-semibold">7000</span>
                 </div>
                 <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-cyan-400 rounded-full" style={{ width: '70%' }}></div>
+                  <div className="h-full bg-teal-400 rounded-full" style={{ width: '70%' }}></div>
                 </div>
               </div>
               <div>
@@ -468,13 +468,13 @@ function App() {
               <span>Total: 256 trámites</span>
             </div>
             <div className="h-3 bg-white/10 rounded-full overflow-hidden flex">
-              <div className="h-full bg-rose-500" style={{ width: '92.97%' }} title="SRI en Línea 92,97%"></div>
-              <div className="h-full bg-lime-500" style={{ width: '5.08%' }} title="GOB.ec 5,08%"></div>
+              <div className="h-full bg-indigo-500" style={{ width: '92.97%' }} title="SRI en Línea 92,97%"></div>
+              <div className="h-full bg-amber-500" style={{ width: '5.08%' }} title="GOB.ec 5,08%"></div>
               <div className="h-full bg-purple-500" style={{ width: '1.95%' }} title="Quipux 1,95%"></div>
             </div>
             <div className="grid md:grid-cols-3 gap-3 text-xs text-slate-300 mt-3">
               <div className="flex items-center gap-2">
-                <span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>
+                <span className="inline-block h-2 w-2 rounded-full bg-indigo-500"></span>
                 SRI en Línea: 238 (92,97%)
               </div>
               <div className="flex items-center gap-2">
@@ -508,7 +508,7 @@ function App() {
                       href="https://www.gob.ec/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-cyan-300 hover:underline"
+                      className="text-teal-300 hover:underline"
                     >
                       Portal Gob.ec
                     </a>
@@ -522,7 +522,7 @@ function App() {
                       href="https://www.sri.gob.ec/servicios-y-tramites"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-cyan-300 hover:underline"
+                      className="text-teal-300 hover:underline"
                     >
                       SRI — Servicios y Trámites
                     </a>
@@ -536,7 +536,7 @@ function App() {
                       href="https://www.sri.gob.ec/sri-tramites-electronicos"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-cyan-300 hover:underline"
+                      className="text-teal-300 hover:underline"
                     >
                       SRI — Trámites electrónicos
                     </a>
@@ -550,7 +550,7 @@ function App() {
                       href="https://www.sri.gob.ec/sri-tramites-electronicos"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-cyan-300 hover:underline"
+                      className="text-teal-300 hover:underline"
                     >
                       SRI — Trámites electrónicos
                     </a>
@@ -564,7 +564,7 @@ function App() {
                       href="https://www.sri.gob.ec/sri-tramites-electronicos"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-cyan-300 hover:underline"
+                      className="text-teal-300 hover:underline"
                     >
                       SRI — Trámites electrónicos
                     </a>
@@ -578,7 +578,7 @@ function App() {
                       href="https://www.firmadigital.gob.ec/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-cyan-300 hover:underline"
+                      className="text-teal-300 hover:underline"
                     >
                       FirmaDigital.gob.ec
                     </a>
@@ -592,7 +592,7 @@ function App() {
                       href="https://www.superbancos.gob.ec/estadisticas/portalestudios/estudios-y-analisis/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-cyan-300 hover:underline"
+                      className="text-teal-300 hover:underline"
                     >
                       Boletín Trimestral de Inclusión Financiera (sep 2025)
                     </a>
@@ -651,7 +651,7 @@ function App() {
                     </div>
                     <div className="h-2 bg-white/10 rounded-full overflow-hidden">
                       <div
-                        className="h-full bg-cyan-400 rounded-full"
+                        className="h-full bg-teal-400 rounded-full"
                         style={{ width: `${Math.max((item.total / firmaMax) * 100, 4)}%` }}
                       ></div>
                     </div>
@@ -695,7 +695,7 @@ function App() {
               href="https://lookerstudio.google.com/u/0/reporting/824a3ec0-8acc-4f88-8378-6f47119ea2b6/page/H0iLD?s=r4mCJYK5ziU"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-cyan-300 hover:underline ml-1"
+              className="text-teal-300 hover:underline ml-1"
             >
               Looker Studio — Estadísticas FirmaEC
             </a>
@@ -787,7 +787,7 @@ function App() {
                     <span className="font-semibold">7,54%</span>
                   </div>
                   <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                    <div className="h-full bg-rose-400" style={{ width: '75.4%' }}></div>
+                    <div className="h-full bg-indigo-400" style={{ width: '75.4%' }}></div>
                   </div>
                 </div>
                 <div>
@@ -811,7 +811,7 @@ function App() {
                     <span className="font-semibold">3.402,42</span>
                   </div>
                   <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                    <div className="h-full bg-cyan-400" style={{ width: '85.1%' }}></div>
+                    <div className="h-full bg-teal-400" style={{ width: '85.1%' }}></div>
                   </div>
                 </div>
                 <div>
@@ -879,7 +879,7 @@ function App() {
                     <span className="font-semibold">124.676,1</span>
                   </div>
                   <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                    <div className="h-full bg-rose-400" style={{ width: '95.9%' }}></div>
+                    <div className="h-full bg-indigo-400" style={{ width: '95.9%' }}></div>
                   </div>
                 </div>
               </div>
@@ -997,7 +997,7 @@ function App() {
               href="https://contenido.bce.fin.ec/documentos/informacioneconomica/MonetarioFinanciero/ix_MonetariasFinancierasPrin.html"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-cyan-300 hover:underline ml-1"
+              className="text-teal-300 hover:underline ml-1"
             >
               Banco Central del Ecuador — Indicadores monetarios y financieros
             </a>
@@ -1058,8 +1058,8 @@ function App() {
               </div>
               <div className="space-y-2 text-xs">
                 {[
-                  { label: 'Oficinas', value: 1.0, color: 'bg-rose-500' },
-                  { label: 'Cajeros', value: 3.7, color: 'bg-cyan-500' },
+                  { label: 'Oficinas', value: 1.0, color: 'bg-indigo-500' },
+                  { label: 'Cajeros', value: 3.7, color: 'bg-teal-500' },
                   { label: 'Corresponsales', value: 36.1, color: 'bg-emerald-500' },
                   { label: 'Datáfonos', value: 71.7, color: 'bg-lime-500' },
                   { label: 'Cajas', value: 20.8, color: 'bg-purple-500' },
@@ -1084,8 +1084,8 @@ function App() {
               </div>
               <div className="space-y-2 text-xs">
                 {[
-                  { label: 'Oficinas', value: 4.8, color: 'bg-rose-500' },
-                  { label: 'Cajeros', value: 17.7, color: 'bg-cyan-500' },
+                  { label: 'Oficinas', value: 4.8, color: 'bg-indigo-500' },
+                  { label: 'Cajeros', value: 17.7, color: 'bg-teal-500' },
                   { label: 'Corresponsales', value: 171.2, color: 'bg-emerald-500' },
                   { label: 'Datáfonos', value: 339.9, color: 'bg-lime-500' },
                   { label: 'Cajas', value: 98.6, color: 'bg-purple-500' },
@@ -1108,12 +1108,12 @@ function App() {
             <div className="bg-white/5 border border-white/10 rounded-xl p-4">
               <div className="text-xs text-slate-400 mb-3">Cajeros automáticos por ubicación</div>
               <div className="h-3 bg-white/10 rounded-full overflow-hidden flex">
-                <div className="h-full bg-rose-500" style={{ width: '40.6%' }} title="En oficina 40,6%"></div>
+                <div className="h-full bg-indigo-500" style={{ width: '40.6%' }} title="En oficina 40,6%"></div>
                 <div className="h-full bg-slate-300" style={{ width: '59.4%' }} title="Fuera de oficina 59,4%"></div>
               </div>
               <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mt-3">
                 <div className="flex items-center gap-2">
-                  <span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>
+                  <span className="inline-block h-2 w-2 rounded-full bg-indigo-500"></span>
                   En oficina: 40,6%
                 </div>
                 <div className="flex items-center gap-2">
@@ -1127,11 +1127,11 @@ function App() {
               <div className="text-xs text-slate-400 mb-3">Corresponsales no bancarios por ubicación</div>
               <div className="space-y-2 text-xs">
                 {[
-                  { label: 'Fábrica / Industria', value: 24.9, color: 'bg-rose-500' },
-                  { label: 'Tienda', value: 16.9, color: 'bg-lime-500' },
+                  { label: 'Fábrica / Industria', value: 24.9, color: 'bg-indigo-500' },
+                  { label: 'Tienda', value: 16.9, color: 'bg-amber-500' },
                   { label: 'Bazar', value: 9.4, color: 'bg-purple-500' },
                   { label: 'Minimarket', value: 8.7, color: 'bg-emerald-500' },
-                  { label: 'Salud y afines', value: 7.8, color: 'bg-cyan-500' },
+                  { label: 'Salud y afines', value: 7.8, color: 'bg-teal-500' },
                   { label: 'Otros', value: 32.2, color: 'bg-slate-300' },
                 ].map(item => (
                   <div key={item.label}>
@@ -1164,7 +1164,7 @@ function App() {
                   </div>
                   <div className="h-2 bg-white/10 rounded-full overflow-hidden flex">
                     <div className="h-full bg-emerald-500" style={{ width: `${Math.min(region.v2024 / 4, 100)}%` }} title={`Sep 2024: ${region.v2024}`}></div>
-                    <div className="h-full bg-rose-500" style={{ width: `${Math.min(region.v2025 / 4, 100)}%` }} title={`Sep 2025: ${region.v2025}`}></div>
+                    <div className="h-full bg-indigo-500" style={{ width: `${Math.min(region.v2025 / 4, 100)}%` }} title={`Sep 2025: ${region.v2025}`}></div>
                   </div>
                 </div>
               ))}
@@ -1275,7 +1275,7 @@ function App() {
               href="https://www.superbancos.gob.ec/estadisticas/portalestudios/estudios-y-analisis/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-cyan-300 hover:underline ml-1"
+              className="text-teal-300 hover:underline ml-1"
             >
               Superintendencia de Bancos — Estudios y análisis (Boletines de Inclusión Financiera)
             </a>
@@ -1332,9 +1332,9 @@ function App() {
               <div className="text-xs text-slate-400 mb-3">Participación por tipo de canal (sep 2025)</div>
               <div className="space-y-2 text-xs">
                 {[
-                  { label: 'Banca celular', value: 49.40, color: 'bg-rose-500' },
-                  { label: 'Oficina', value: 23.22, color: 'bg-lime-500' },
-                  { label: 'Internet', value: 9.87, color: 'bg-cyan-500' },
+                  { label: 'Banca celular', value: 49.40, color: 'bg-indigo-500' },
+                  { label: 'Oficina', value: 23.22, color: 'bg-amber-500' },
+                  { label: 'Internet', value: 9.87, color: 'bg-teal-500' },
                   { label: 'Datáfono POS', value: 7.08, color: 'bg-emerald-500' },
                   { label: 'Cajeros automáticos', value: 6.29, color: 'bg-purple-500' },
                   { label: 'Corresponsal no bancario', value: 3.75, color: 'bg-fuchsia-500' },
@@ -1441,12 +1441,12 @@ function App() {
             <div className="bg-white/5 border border-white/10 rounded-xl p-4">
               <div className="text-xs text-slate-400 mb-3">Adultos con tarjeta de crédito</div>
               <div className="h-3 bg-white/10 rounded-full overflow-hidden flex mb-3">
-                <div className="h-full bg-rose-500" style={{ width: '30.9%' }} title="Tiene 30,9%"></div>
-                <div className="h-full bg-lime-500" style={{ width: '69.1%' }} title="No tiene 69,1%"></div>
+                <div className="h-full bg-indigo-500" style={{ width: '30.9%' }} title="Tiene 30,9%"></div>
+                <div className="h-full bg-amber-500" style={{ width: '69.1%' }} title="No tiene 69,1%"></div>
               </div>
               <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mb-4">
-                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>Tiene: 30,9%</div>
-                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-lime-500"></span>No tiene: 69,1%</div>
+                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-indigo-500"></span>Tiene: 30,9%</div>
+                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-amber-500"></span>No tiene: 69,1%</div>
               </div>
 
               <div className="text-xs text-slate-400 mb-2">Por sexo</div>
@@ -1454,7 +1454,7 @@ function App() {
                 {[{ label: 'Hombres', value: 34.86 }, { label: 'Mujeres', value: 27.11 }].map(item => (
                   <div key={item.label}>
                     <div className="flex items-center justify-between mb-1"><span>{item.label}</span><span className="font-semibold">{item.value.toFixed(2).replace('.', ',')}%</span></div>
-                    <div className="h-2 bg-white/10 rounded-full overflow-hidden"><div className="h-full bg-cyan-400" style={{ width: `${item.value * 2.2}%` }}></div></div>
+                    <div className="h-2 bg-white/10 rounded-full overflow-hidden"><div className="h-full bg-teal-400" style={{ width: `${item.value * 2.2}%` }}></div></div>
                   </div>
                 ))}
               </div>
@@ -1470,7 +1470,7 @@ function App() {
                   <div key={item.label}>
                     <div className="flex items-center justify-between mb-1"><span>{item.label}</span><span className="text-slate-400">{item.men.toFixed(1).replace('.', ',')}% / {item.women.toFixed(1).replace('.', ',')}%</span></div>
                     <div className="h-2 bg-white/10 rounded-full overflow-hidden flex">
-                      <div className="h-full bg-rose-500" style={{ width: `${Math.max(item.men * 1.6, 2)}%` }}></div>
+                      <div className="h-full bg-indigo-500" style={{ width: `${Math.max(item.men * 1.6, 2)}%` }}></div>
                       <div className="h-full bg-pink-400" style={{ width: `${Math.max(item.women * 1.6, 2)}%` }}></div>
                     </div>
                   </div>
@@ -1484,19 +1484,19 @@ function App() {
               <div className="mb-4">
                 <div className="text-xs text-slate-400 mb-2">Consumo — adultos con crédito</div>
                 <div className="h-3 bg-white/10 rounded-full overflow-hidden flex mb-2">
-                  <div className="h-full bg-rose-500" style={{ width: '11%' }} title="Tiene 11,0%"></div>
-                  <div className="h-full bg-lime-500" style={{ width: '89%' }} title="No tiene 89,0%"></div>
+                  <div className="h-full bg-indigo-500" style={{ width: '11%' }} title="Tiene 11,0%"></div>
+                  <div className="h-full bg-amber-500" style={{ width: '89%' }} title="No tiene 89,0%"></div>
                 </div>
                 <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mb-3">
-                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>Tiene: 11,0%</div>
-                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-lime-500"></span>No tiene: 89,0%</div>
+                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-indigo-500"></span>Tiene: 11,0%</div>
+                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-amber-500"></span>No tiene: 89,0%</div>
                 </div>
                 <div className="text-xs text-slate-400 mb-1">Por sexo</div>
                 <div className="space-y-2 text-xs">
                   {[{ label: 'Hombres', value: 11.66 }, { label: 'Mujeres', value: 10.33 }].map(item => (
                     <div key={item.label}>
                       <div className="flex items-center justify-between mb-1"><span>{item.label}</span><span className="font-semibold">{item.value.toFixed(2).replace('.', ',')}%</span></div>
-                      <div className="h-2 bg-white/10 rounded-full overflow-hidden"><div className="h-full bg-cyan-400" style={{ width: `${item.value * 2.2}%` }}></div></div>
+                      <div className="h-2 bg-white/10 rounded-full overflow-hidden"><div className="h-full bg-teal-400" style={{ width: `${item.value * 2.2}%` }}></div></div>
                     </div>
                   ))}
                 </div>
@@ -1511,7 +1511,7 @@ function App() {
                     <div key={item.label}>
                       <div className="flex items-center justify-between mb-1"><span>{item.label}</span><span className="text-slate-400">{item.men.toFixed(1).replace('.', ',')}% / {item.women.toFixed(1).replace('.', ',')}%</span></div>
                       <div className="h-2 bg-white/10 rounded-full overflow-hidden flex">
-                        <div className="h-full bg-rose-500" style={{ width: `${Math.max(item.men * 1.4, 2)}%` }}></div>
+                        <div className="h-full bg-indigo-500" style={{ width: `${Math.max(item.men * 1.4, 2)}%` }}></div>
                         <div className="h-full bg-pink-400" style={{ width: `${Math.max(item.women * 1.4, 2)}%` }}></div>
                       </div>
                     </div>
@@ -1522,19 +1522,19 @@ function App() {
               <div>
                 <div className="text-xs text-slate-400 mb-2">Microcréditos — adultos con crédito</div>
                 <div className="h-3 bg-white/10 rounded-full overflow-hidden flex mb-2">
-                  <div className="h-full bg-rose-500" style={{ width: '3.8%' }} title="Tiene 3,8%"></div>
-                  <div className="h-full bg-lime-500" style={{ width: '96.2%' }} title="No tiene 96,2%"></div>
+                  <div className="h-full bg-indigo-500" style={{ width: '3.8%' }} title="Tiene 3,8%"></div>
+                  <div className="h-full bg-amber-500" style={{ width: '96.2%' }} title="No tiene 96,2%"></div>
                 </div>
                 <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mb-3">
-                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>Tiene: 3,8%</div>
-                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-lime-500"></span>No tiene: 96,2%</div>
+                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-indigo-500"></span>Tiene: 3,8%</div>
+                  <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-amber-500"></span>No tiene: 96,2%</div>
                 </div>
                 <div className="text-xs text-slate-400 mb-1">Por sexo</div>
                 <div className="space-y-2 text-xs">
                   {[{ label: 'Hombres', value: 4.70 }, { label: 'Mujeres', value: 2.89 }].map(item => (
                     <div key={item.label}>
                       <div className="flex items-center justify-between mb-1"><span>{item.label}</span><span className="font-semibold">{item.value.toFixed(2).replace('.', ',')}%</span></div>
-                      <div className="h-2 bg-white/10 rounded-full overflow-hidden"><div className="h-full bg-cyan-400" style={{ width: `${item.value * 4}%` }}></div></div>
+                      <div className="h-2 bg-white/10 rounded-full overflow-hidden"><div className="h-full bg-teal-400" style={{ width: `${item.value * 4}%` }}></div></div>
                     </div>
                   ))}
                 </div>
@@ -1549,7 +1549,7 @@ function App() {
                     <div key={item.label}>
                       <div className="flex items-center justify-between mb-1"><span>{item.label}</span><span className="text-slate-400">{item.men.toFixed(1).replace('.', ',')}% / {item.women.toFixed(1).replace('.', ',')}%</span></div>
                       <div className="h-2 bg-white/10 rounded-full overflow-hidden flex">
-                        <div className="h-full bg-rose-500" style={{ width: `${Math.max(item.men * 1.4, 2)}%` }}></div>
+                        <div className="h-full bg-indigo-500" style={{ width: `${Math.max(item.men * 1.4, 2)}%` }}></div>
                         <div className="h-full bg-pink-400" style={{ width: `${Math.max(item.women * 1.4, 2)}%` }}></div>
                       </div>
                     </div>
@@ -1567,11 +1567,11 @@ function App() {
                 <span className="text-emerald-300">+9,6% anual</span>
               </div>
               <div className="h-3 bg-white/10 rounded-full overflow-hidden flex">
-                <div className="h-full bg-rose-500" style={{ width: '50.8%' }} title="Hombres 50,8%"></div>
+                <div className="h-full bg-indigo-500" style={{ width: '50.8%' }} title="Hombres 50,8%"></div>
                 <div className="h-full bg-pink-400" style={{ width: '49.2%' }} title="Mujeres 49,2%"></div>
               </div>
               <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mt-3">
-                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>Hombres: 50,8%</div>
+                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-indigo-500"></span>Hombres: 50,8%</div>
                 <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-pink-400"></span>Mujeres: 49,2%</div>
               </div>
             </div>
@@ -1582,11 +1582,11 @@ function App() {
                 <span className="text-emerald-300">+6,1% anual</span>
               </div>
               <div className="h-3 bg-white/10 rounded-full overflow-hidden flex">
-                <div className="h-full bg-rose-500" style={{ width: '55.2%' }} title="Hombres 55,2%"></div>
+                <div className="h-full bg-indigo-500" style={{ width: '55.2%' }} title="Hombres 55,2%"></div>
                 <div className="h-full bg-pink-400" style={{ width: '44.8%' }} title="Mujeres 44,8%"></div>
               </div>
               <div className="grid grid-cols-2 gap-3 text-xs text-slate-300 mt-3">
-                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-rose-500"></span>Hombres: 55,2%</div>
+                <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-indigo-500"></span>Hombres: 55,2%</div>
                 <div className="flex items-center gap-2"><span className="inline-block h-2 w-2 rounded-full bg-pink-400"></span>Mujeres: 44,8%</div>
               </div>
             </div>
@@ -1598,7 +1598,7 @@ function App() {
               href="https://www.superbancos.gob.ec/estadisticas/portalestudios/estudios-y-analisis/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-cyan-300 hover:underline ml-1"
+              className="text-teal-300 hover:underline ml-1"
             >
               Superintendencia de Bancos — Boletín Trimestral de Inclusión Financiera (sep 2025)
             </a>
@@ -1702,7 +1702,7 @@ function App() {
               </button>
               <button
                 onClick={handleCopyAPAAll}
-                className="bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-semibold px-4 py-1.5 rounded-full text-sm"
+                className="bg-teal-500 hover:bg-teal-400 text-slate-900 font-semibold px-4 py-1.5 rounded-full text-sm"
               >
                 Copiar APA 7
               </button>
@@ -1724,7 +1724,7 @@ function App() {
                         value={searchQuery}
                         onChange={e => setSearchQuery(e.target.value)}
                         placeholder="Ej: LOPDP, 2023, INEC, Reglamento..."
-                        className="mt-1 w-full bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                        className="mt-1 w-full bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500"
                       />
                     </div>
                     <div>
@@ -1788,20 +1788,20 @@ function App() {
                 </div>
 
                 <div className="grid grid-cols-3 gap-4">
-                  <div className="bg-gradient-to-br from-rose-600/20 to-rose-600/5 border border-rose-500/30 rounded-2xl p-6 hover:border-rose-500/50 transition flex flex-col items-center text-center">
+                  <div className="bg-gradient-to-br from-indigo-600/20 to-indigo-600/5 border border-indigo-500/30 rounded-2xl p-6 hover:border-indigo-500/50 transition flex flex-col items-center text-center">
                     <div className="flex items-center justify-center gap-2 mb-3">
                       <span className="text-2xl">📊</span>
-                      <div className="text-xs font-semibold text-rose-400 uppercase">Total</div>
+                      <div className="text-xs font-semibold text-indigo-400 uppercase">Total</div>
                     </div>
-                    <div className="text-4xl font-bold text-rose-300">{stats.total}</div>
+                    <div className="text-4xl font-bold text-indigo-300">{stats.total}</div>
                     <p className="text-xs text-slate-400 mt-3">Eventos en la base</p>
                   </div>
-                  <div className="bg-gradient-to-br from-lime-500/20 to-lime-500/5 border border-lime-500/30 rounded-2xl p-6 hover:border-lime-500/50 transition flex flex-col items-center text-center">
+                  <div className="bg-gradient-to-br from-amber-500/20 to-amber-500/5 border border-amber-500/30 rounded-2xl p-6 hover:border-amber-500/50 transition flex flex-col items-center text-center">
                     <div className="flex items-center justify-center gap-2 mb-3">
                       <span className="text-2xl">✅</span>
-                      <div className="text-xs font-semibold text-lime-400 uppercase">Mostrados</div>
+                      <div className="text-xs font-semibold text-amber-400 uppercase">Mostrados</div>
                     </div>
-                    <div className="text-4xl font-bold text-lime-300">{stats.shown}</div>
+                    <div className="text-4xl font-bold text-amber-300">{stats.shown}</div>
                     <p className="text-xs text-slate-400 mt-3">Después de filtros</p>
                   </div>
                   <div className="bg-gradient-to-br from-purple-600/20 to-purple-600/5 border border-purple-500/30 rounded-2xl p-6 hover:border-purple-500/50 transition flex flex-col items-center text-center">
@@ -1992,7 +1992,7 @@ function App() {
                         value={indicatorQuery}
                         onChange={e => setIndicatorQuery(e.target.value)}
                         placeholder="Ej: EGDI, FirmaEC, transacciones, M2..."
-                        className="mt-1 w-full bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                        className="mt-1 w-full bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500"
                       />
                     </div>
                     <div className="w-full sm:w-56">
@@ -2038,12 +2038,12 @@ function App() {
                       key={section.id}
                       onClick={() => document.getElementById(section.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
                       title={section.summary}
-                      className="text-left bg-white/5 border border-white/10 rounded-xl p-3 hover:border-cyan-400/50 transition"
+                      className="text-left bg-white/5 border border-white/10 rounded-xl p-3 hover:border-teal-400/50 transition"
                     >
                       <div className="text-xs text-slate-400">{section.category}</div>
                       <div className="font-semibold text-sm text-white mt-1">{section.title}</div>
                       <div className="h-1 bg-white/10 rounded-full overflow-hidden mt-3">
-                        <div className="h-full bg-gradient-to-r from-cyan-400 to-rose-400" style={{ width: '60%' }}></div>
+                        <div className="h-full bg-gradient-to-r from-teal-400 to-indigo-400" style={{ width: '60%' }}></div>
                       </div>
                     </button>
                   ))}

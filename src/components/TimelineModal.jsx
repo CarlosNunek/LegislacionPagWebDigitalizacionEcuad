@@ -52,7 +52,7 @@ export function TimelineModal({ events, isOpen, onClose }) {
         content: `<div class="font-semibold text-xs text-center px-2 py-1">${e.titulo}</div>`,
         start: e.fecha || '1900-01-01',
         title: `${e.titulo}\n${e.pais || 'General'} · ${e.categoria}\n${e.fecha || '—'}`,
-        className: e.pais === 'Canadá' ? 'bg-lime-500' : 'bg-rose-600'
+        className: e.pais === 'Canadá' ? 'bg-amber-500' : 'bg-indigo-600'
       }))
     );
 
@@ -167,11 +167,11 @@ export function TimelineModal({ events, isOpen, onClose }) {
           {/* Leyenda */}
           <div className="flex gap-4 text-xs">
             <div className="flex items-center gap-2">
-              <div className="w-4 h-4 rounded bg-rose-600"></div>
+              <div className="w-4 h-4 rounded bg-indigo-600"></div>
               <span>🇪🇨 Ecuador</span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-4 h-4 rounded bg-lime-500"></div>
+              <div className="w-4 h-4 rounded bg-amber-500"></div>
               <span>🇨🇦 Canadá</span>
             </div>
           </div>
@@ -188,7 +188,7 @@ export function TimelineModal({ events, isOpen, onClose }) {
                   <h3 className="font-semibold text-base mb-2">{selectedEvent.titulo}</h3>
                   <div className="flex flex-wrap gap-2 mb-3">
                     {selectedEvent.pais && (
-                      <span className={`px-3 py-1 rounded-full border text-xs font-semibold ${selectedEvent.pais === 'Canadá' ? 'bg-lime-500/20 border-lime-500/40 text-lime-300' : 'bg-rose-500/20 border-rose-500/40 text-rose-300'}`}>
+                      <span className={`px-3 py-1 rounded-full border text-xs font-semibold ${selectedEvent.pais === 'Canadá' ? 'bg-amber-500/20 border-amber-500/40 text-amber-300' : 'bg-indigo-500/20 border-indigo-500/40 text-indigo-300'}`}>
                         {selectedEvent.pais === 'Canadá' ? '🇨🇦' : '🇪🇨'} {selectedEvent.pais}
                       </span>
                     )}
@@ -221,7 +221,7 @@ export function TimelineModal({ events, isOpen, onClose }) {
                               href={f.url}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-cyan-300 hover:text-cyan-200 hover:underline break-words"
+                              className="text-teal-300 hover:text-teal-200 hover:underline break-words"
                             >
                               📄 {f.label} ↗
                             </a>
