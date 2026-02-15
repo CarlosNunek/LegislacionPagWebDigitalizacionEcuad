@@ -1,7 +1,7 @@
 import TimelineEmbed from "./TimelineEmbed";
 export function Home() {
   return (
-    <div className="min-h-screen bg-[radial-gradient(1200px_circle_at_10%_-10%,rgba(34,211,238,0.15),transparent),radial-gradient(800px_circle_at_90%_0%,rgba(99,102,241,0.12),transparent)] bg-slate-950 text-white">
+    <div className="min-h-screen bg-[radial-gradient(1200px_circle_at_10%_-10%,rgba(20,184,166,0.18),transparent),radial-gradient(800px_circle_at_90%_0%,rgba(99,102,241,0.12),transparent)] bg-slate-950 text-white">
       <main className="max-w-6xl mx-auto px-4 py-10 space-y-10">
         <section className="grid lg:grid-cols-[1.2fr_1fr] gap-8 items-center">
           <div className="space-y-4">
@@ -14,7 +14,7 @@ export function Home() {
             <div className="flex flex-wrap gap-3">
               <a
                 href="/app"
-                className="bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-semibold px-5 py-2.5 rounded-full text-sm"
+                className="bg-teal-500 hover:bg-teal-400 text-slate-900 font-semibold px-5 py-2.5 rounded-full text-sm"
               >
                 Entrar al análisis
               </a>
@@ -29,14 +29,14 @@ export function Home() {
           <div className="bg-white/5 border border-white/10 rounded-2xl p-5 space-y-4">
             <h2 className="text-sm uppercase tracking-wider text-slate-400">Indicadores clave</h2>
             <div className="grid grid-cols-2 gap-4">
-              <div className="bg-gradient-to-br from-blue-600/20 to-blue-600/5 border border-blue-500/30 rounded-xl p-4">
-                <div className="text-xs text-blue-300 font-semibold">EGDI Ecuador</div>
-                <div className="text-2xl font-bold text-blue-300">0,7800</div>
+              <div className="bg-gradient-to-br from-indigo-600/20 to-indigo-600/5 border border-indigo-500/30 rounded-xl p-4">
+                <div className="text-xs text-indigo-300 font-semibold">EGDI Ecuador</div>
+                <div className="text-2xl font-bold text-indigo-300">0,7800</div>
                 <div className="text-xs text-slate-400">Puesto 67</div>
               </div>
-              <div className="bg-gradient-to-br from-green-600/20 to-green-600/5 border border-green-500/30 rounded-xl p-4">
-                <div className="text-xs text-green-300 font-semibold">EGDI Canadá</div>
-                <div className="text-2xl font-bold text-green-300">0,8452</div>
+              <div className="bg-gradient-to-br from-amber-500/20 to-amber-500/5 border border-amber-500/30 rounded-xl p-4">
+                <div className="text-xs text-amber-300 font-semibold">EGDI Canadá</div>
+                <div className="text-2xl font-bold text-amber-300">0,8452</div>
                 <div className="text-xs text-slate-400">Puesto 47</div>
               </div>
               <div className="bg-white/5 border border-white/10 rounded-xl p-4">
